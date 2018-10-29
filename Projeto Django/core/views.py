@@ -6,3 +6,9 @@ def index(request):
    
    
     return render (request,"index.html")
+
+def curso_administracao(request):
+   
+   
+    return render (request,"curso_administracao.html") 
+    
