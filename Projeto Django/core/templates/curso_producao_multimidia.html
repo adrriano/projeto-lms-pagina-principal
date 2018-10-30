@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="static/css/main2.css">
+    <title>FIT</title>
+    <link rel="icon" href="static/imagens/icones-ingressar.png">
+</head>
+<script>    
+	function mostrar_abas(obj) {
+
+		document.getElementById('div_aba1').style.display="none";
+		document.getElementById('div_aba2').style.display="none";
+		document.getElementById('div_aba3').style.display="none";
+		document.getElementById('div_aba4').style.display="none";
+	
+
+
+
+
+		switch (obj.id) {
+			case 'mostra_aba1':
+			document.getElementById('div_aba1').style.display="block";
+			break
+			case 'mostra_aba2':
+			document.getElementById('div_aba2').style.display="block";
+			break
+			case 'mostra_aba3':
+			document.getElementById('div_aba3').style.display="block";
+			break
+			case 'mostra_aba4':
+			document.getElementById('div_aba4').style.display="block";
+			break
+	
+		}
+	}
+
+</script>
+
+
+
+<body> 
+
+    
+
+	<img class="logo_impct" src="static/imagens/logo.png" alt="logo"> 
+	<nav id="menu"> <!--A teg nav é de navegação ela é parecida com a div mais ela ja é propria para navegar em menu ,sub_menu -->
+		<ul id="ul">
+			<li>Home</li>
+			<li>Graduação
+				<ul>
+				<!--	<li>Administração   </li>
+					<li class="li2">Analise e Desenvolvimento de Sistemas</li>
+					<li>Banco de dados</li>
+					<li>Sistemas de informação</li>
+					<li>Engenharia da computação</li>
+					<li class="li6">Gestão da tecnologia da informação</li>
+					<li>Jogos Digitais</li>
+					<li>Processos Gerencias</li>
+					<li>Produção Multimidia</li>
+					<li>Redes de computadores</li>-->
+				</ul>
+			</li>
+			<li>Impacta</li>
+			<li>Contato</li>
+
+
+		</ul>
+	</nav>
+	<div><button class="bt_log">Login</button></div>
+    <img class="vetor_logo" src="" alt="">
+    
+    <div class= "texto_pag">
+        <p ><h1>Administração</h1></p>
+    </div>
+	
+
+	
+	<div class="movimento">
+		<div class="div1">
+			<div class="div2">
+				<h3  onclick="mostrar_abas(this);" id="mostra_aba1" >1° Semestre</h3> 
+				<h3  onclick="mostrar_abas(this);" id="mostra_aba2" >2° Semestre</h3> 
+				<h3  onclick="mostrar_abas(this);" id="mostra_aba3" >3° Semestre</h3> 
+				<h3  onclick="mostrar_abas(this);" id="mostra_aba4" >4° Semestre</h3>
+			
+			</div>
+		</div>
+		<!-- abas -->
+
+		<div id="div_aba1" style="display:block;">
+            <p class="text1">
+
+                Comunicação e Expressão: 80 horas
+                Nesta disciplina serão discutidas as noções de texto e contexto, 
+                repensando as atuais possibilidades proporcionadas pelas novas 
+                tecnologias O hipertexto será definido, caracterizado e problematizado, 
+                buscando-se com isso verificar quais são as especificidades desse 
+                formato textual. Discutiremos os gêneros e tipos textuais, apresentaremos 
+                as potencialidades criativas promovidas pelas amplas e fecundas relações 
+                intertextuais. Exploraremos os diversos suportes midiáticos e suas 
+                especificidades. 
+                <br><br> 
+
+                Filosofia: 80 horas
+                Introdução à Filosofia. As origens da Filosofia Ocidental: do mito à razão. 
+                Os problemas dos primeiros filósofos. A Filosofia Moderna e o racionalismo 
+                cartesiano. A “crise da razão” e a “crítica à consciência”. Campos da reflexão 
+                filosófica: a Estética. Problemas da Estética. Arte e técnica. Introdução à 
+                Teoria Crítica: o conceito de indústria cultural. Introdução ao pensamento de 
+                Vilém Flusser.
+                <br><br>
+
+                Processo Criativo: 80 horas
+                Pesquisar a evolução da imagem para o raciocínio projetual, juntamente com 
+                as alternativas que viabilizem o processo de criação no design, utilizando 
+                o desenho como princípio gerador de formas. Estudo da composição de formas, 
+                linhas, equilíbrio, harmonia, massa, textura, volume e cor. Definir modelos 
+                adequados ao mercado e conceber trabalhos variados nas áreas de design gráfico 
+                e de mídia digital. Criação e desenvolvimento de produtos para briefings 
+                específicos.
+                <br><br>
+
+                Storytelling: 40 horas
+                A disciplina abordará de forma teórica e através de exercícios de prática 
+                textual, a elaboração de roteiros que terão como foco principal as ações de 
+                marketing digital. Conceituará as principais práticas de storytelling e suas 
+                plicações nos meios digitais e tradicionais. Trabalharemos a elaboração e a 
+                execução de campanhas digitais através da construção de narrativas e a conceituação 
+                de público alvo dentro das diversas formas de geração de conteúdo e gênero 
+                narrativo presentes no meio comunicativo.
+                <br><br>
+
+                Teoria da Cor: 80 horas
+                O desenho e o entendimento da cor serão discutidos, aqui, sob o ponto de vista 
+                dos estudos sobre os processos de criação. Proporcionar aos alunos um entendimento 
+                sobre o significado da cor pigmento e da cor luz, suas propriedades químicas, 
+                efeitos, transformações, influências, modelos de representações e suas relações 
+                com as aplicações gráficas, atualizando-os e capacitando-os no uso da cor no mundo 
+                gráfico e digital.
+                <br><br>
+
+                Tipografia: 80 horas
+                História e evolução. Nomenclatura e classificação dos tipos. A tipografia como 
+                meio de criação e expressão.
+
+                Subtotal: 440 horas
+                <br><br>
+
+            </p>
+		</div>
+		<div id="div_aba2" style="display:none;">
+            <p class="text2"> 
+                
+                Computação Gráfica: 80 horas
+				Apresentação das origens e da definição de Computação Gráfica. Estudo de
+				 técnicas para modelagem e representação de objetos geométricos utilizados 
+				 em aplicações Computação Gráfica. Estudo de algoritmos de Processamento 
+				 de Imagens, incluindo aquisição e segmentação, aplicação de filtros e 
+				 transformações. Estudo de algoritmos de visão computacional para representação
+				  e detecção de forma de objetos e de análise de movimento em imagens. 
+				  Estudo das etapas do processo de visualização bidimensional. Estudo das 
+				  etapas do processo de visualização tridimensional e da geração de imagens 
+				  realistas através de técnicas de remoção de elementos ocultos, iluminação 
+				  e aplicação de texturas e cores.
+				  <br><br>
+				
+				Fotografia Digital: 80 horas
+				Breve história do desenvolvimento técnico e tecnológico da fotografia. 
+				Semelhanças, distinções e características do filme fotográfico e da fotografia 
+				digital.
+				<br><br>
+				
+				Gamificação: 80 horas					
+				Desenvolver briefings e projetos voltados para mídia integrada, pesquisar a 
+				evolução da imagem para o raciocínio projetual, juntamente com as alternativas 
+				que viabilizem o processo de criação no design, utilizando o desenho como 
+				princípio gerador de formas, linhas, equilíbrio, harmonia, volume. Conhecer 
+				e executar os elementos essenciais para a compreensão da gramática da comunicação 
+				visual.<br>
+				
+				Definir e pensar modelos adequados ao mercado atual para conceber trabalhos 
+				variados nas áreas de web design, design gráfico e de mídia digital. Criação 
+				e desenvolvimento de proposta de comunicação nos variados suportes multimidiáticos.
+				<br><br>
+				
+				Libras: 40 horas
+				Aquisição de uma nova língua: Língua Brasileira de Sinais (LIBRAS).
+				<br>
+				Oferecer o conceito de Libras, Fundamentos históricos da educação de surdos. 
+				Legislação específica. Aspectos Linguísticos da Libras. Compreender os principais 
+				aspectos da Língua Brasileira de Sinais – Libras, língua oficial da comunidade 
+				surda brasileira, contribuindo para a inclusão educacional dos alunos surdos.
+				<br><br>
+
+				Marketing Digital e Mídias Sociais: 40 horas
+				Compreensão das estratégias e cenários do marketing aplicado à ambientes 
+				digitais e redes sociais. Formulação de planejamento estratégico para concepção 
+				e execução de campanhas online. SEM, SEO e formatos de mídia convencional. 
+				Ciclo de feedback social e Groundswell como modelos de estudo e análise em redes 
+				sociais.
+				<br><br>
+				
+				Novas Mídias: 40 horas
+				A disciplina pretende levar o aluno, em aulas expositivas atividades em grupo, 
+				a um maior conhecimento das trajetórias das diferentes tecnologias aplicadas 
+				ao mundo digital, bem como suas correlações comportamentais e sociais.
+				<br><br>
+				
+				Sociedade e Sustentabilidade: 40 horas
+				Identificar o papel do administrador de empresa no século XXI, considerando  
+				a fundamentação teórica, sob uma ótica de desenvolvimento sustentável, 
+				vislumbrando Organizações em equilíbrio Econômico-financeiro e que respeitem 
+				a sociedade e o meio ambiente. Desenvolver competências, para compreender o 
+				mundo a seu redor e propor alternativas menos danosas ao meio ambiente e a 
+				sociedade, sempre com a premissa da saúde financeira da Organização, bem como, 
+				de oportunidade de negócios.
+				<br><br>
+				
+				Subtotal: 400 horas
+
+			
+			 </p>
+		</div>
+		<div id="div_aba3" style="display:block;">
+			<p class="text3">
+                Criação e Produção Web: 40 horas
+                Princípios de web design. Criação e produção de web sites. Entender o processo 
+                de construção de WEB sites, compreendendo do desenho à publicação. Aspectos 
+                técnicos da produção digital para Internet e usabilidade. Ferramentas para edição 
+                de HTML. Utilização do CSS e principais softwares de criação e produção de projetos 
+                publicitários para Web. Aspectos técnicos da produção digital para internet.
+                <br><br>
+                
+                Design de Informação: 40 horas
+                Conceituac¸a~o e fundamentac¸a~o do design da informac¸a~o. Princi´pios do design, 
+                estrutura e organizac¸a~o visual em documentos gra´ficos e interface. Direc¸a~o e 
+                criac¸a~o em mi´dia digital. Ana´lise do design da informac¸a~o em suportes digitais.
+                <br><br>
+                
+                Direção de Arte: 80 horas
+                Metodologias de trabalho e processo criativo para a direção de arte. Elementos da 
+                linguagem visual, luz, cor, fotografia, animação, composição e tipografia. 
+                Proporcionar ao aluno o conhecimento dos elementos que compõem a direção de 
+                arte – cenografia, figurino, maquiagem e caracterização e suas aplicações na produção 
+                audiovisual e multimídia.
+                <br><br>
+                
+                Modelagem 3D: 80 horas
+                Permitir a troca de informação com profissionais da área de modelagem 3D. Executar 
+                projetos na condição de generalista 3D. Adquirir a capacidade de avaliar a qualidade 
+                de uma modelagem 3D com base em referências e/ou projetos de natureza similar.
+                <br><br>
+                
+                Produção Audiovisual: 80 horas
+                A disciplina abordará de forma prática e teórica a produção audiovisual. A partir 
+                de aulas expositivas e exercícios desenvolvidos em aula, busca-se fornecer aos 
+                alunos as principais ferramentas para a elaboração, execução e finalização de 
+                produtos audiovisuais, levando em conta a coerência das técnicas empregadas em 
+                relação a sua parte conceitual e produtiva.
+                <br><br>
+                
+                Semiótica: 80 horas
+                Introduzir fundamentos da semiótica no campo do design, estratificados entre arte, 
+                cultura e comunicação visual: discussão da relação objeto x material, 
+                artefato x produto e procedimento do design; a relação com as mídias; design no 
+                contexto da sociedade contemporânea; cultura de mercado e novas tecnologias. 
+                Promover a capacidade de reflexão crítica sobre signo, estimulando a reflexão 
+                no desenvolvimento do Design.
+                <br><br>
+                
+                Subtotal: 400 horas
+            </p>
+		</div>
+		<div id="div_aba4" style="display:block;">
+			<p class="text4">
+                Aplicativo Mobile e Internet: 40 horas
+                Compreender os conceitos formais e abstratos dos softwares para a Internet 
+                móvel. Dispositivos móveis e redes de comunicação. Planejando o desenvolvimento
+                 de aplicativos. Usabilidade móvel. APPs e sites móveis. Web Design Responsivo: 
+                 HTML e CSS para sites móveis. XHTML e HTML5. Introdução ao desenvolvimento de 
+                 Apps nativos em plataformas Android, Apple e Windows Phone.
+                <br><br>
+                
+                Cibercultura: 80 horas
+                A construção hipermidiática e as relações entre os elementos constituintes para 
+                criação de produtos hipermidiáticos. Conceitos e técnicas de roteirização das 
+                hipermídias. Conceitos e técnicas para o desenvolvimento de produtos 
+                hipermidiáticos.
+                <br><br>
+                
+                Design Thinking: 40 horas
+                Desenvolver habilidades do que compõe o chamado “pensamento de design” com o 
+                escopo de criar um mindset para busca ativa por criação e inovação como forma 
+                de organização do pensamento não somente para a área de tecnologia, mas também 
+                para as áreas da cultura, artes, sociedade, biologia, engenharia e educação. 
+                Conhecer e aprender as três grandes aplicações do Design Thinking que geralmente 
+                estimulam uma equipe a adotar essa perspectiva: abordagem de inovação, como 
+                metodologia para solução de problemas e como estratégia de ensino-aprendizagem; 
+                a exploração do fator humano; e a descrição e execução do processo de Design 
+                Thinking.
+                <br><br>
+                
+                Efeitos Especiais: 80 horas
+                A disciplina abordará de forma prática e teórica os princípios da pós-produção 
+                audiovisual. A partir de aulas expositivas e exercícios desenvolvidos em aula, 
+                busca-se fornecer aos alunos as principais ferramentas para a elaboração, 
+                execução (composição e aplicação de efeitos) e finalização de produtos 
+                audiovisuais, levando em conta a coerência das técnicas empregadas em relação 
+                a sua parte conceitual e produtiva.
+                <br><br>
+                
+                Linguagem Sonora: 80 horas
+                A disciplina apresenta a evolução da tecnologia aplicada ao design sonoro em 
+                projetos multimídia. Serão oferecidos subsídios para que os alunos possam criar 
+                e editar trilhas sonoras em softwares de edição de áudio.
+                <br><br>
+                
+                OPE (Oficina Projeto Empresa) EAD : 80 horas
+                A Oficina Projeto Empresa (OPE) é um projeto interdisciplinar iniciado no 
+                terceiro semestre e que se estende até o quarto semestre do curso. Este projeto 
+                tem como objetivo o desenvolvimento de um relatório e um produto multimídia. 
+                A temática é livre, desde que se utilize de softwares aprendidos no decorrer 
+                do curso, e os alunos contam com a orientação de docente designado em cada 
+                fase do projeto.
+                <br><br>
+                Subtotal: 400 horas</p>
+		</div>
+		
+	</div>
+
+	
+
+	<div id="rodp">
+		<p class="rod">© Copyright desde 2018 BinaryWork, todos os direitos reservados </p>
+	</div>  
+
+
+
+
+
+</body>
+</html>

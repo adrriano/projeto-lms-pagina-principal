@@ -6,6 +6,9 @@ from django.http import HttpResponse
 def index(request):
     return render (request,"index.html")
 
+def home(request):
+    return render (request,"index.html") 
+
 def curso_administracao(request):
     return render (request,"curso_administracao.html") 
 
@@ -27,8 +30,8 @@ def jogos_digitais(request):
 def processos_gerenciais(request):
     return render (request,"processos_gerenciais.html") 
 
-def producao_multimidia(request):
-    return render (request,"producao_multimidia.html") 
+def curso_producao_multimidia(request):
+    return render (request,"curso_producao_multimidia.html") 
 
-def redes_de_computadores(request):
-    return render (request,"curso_administracao.html") 
+def curso_redes_de_computadores(request):
+    return render (request,"curso_redes_de_computadores.html") 

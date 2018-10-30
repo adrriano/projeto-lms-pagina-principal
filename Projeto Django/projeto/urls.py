@@ -21,6 +21,7 @@ from core.views import *
 urlpatterns = [
     path('',index),
     path('admin/', admin.site.urls),
+    path('index.html',home),
     path('curso_administracao.html',curso_administracao),
     path('banco_de_dados.html',banco_de_dados),
     path('sistemas_de_informacao.html',sistemas_de_informacao),
@@ -28,6 +29,6 @@ urlpatterns = [
     path('gestao_da_tecnologia_da_informacao.html',gestao_da_tecnologia_da_informacao),
     path('jogos_digitais.html',jogos_digitais),
     path('processos_gerenciais.html',processos_gerenciais),
-    path('producao_multimidia.html',producao_multimidia),
-    path('redes_de_computadores.html',redes_de_computadores),
+    path('curso_producao_multimidia.html',curso_producao_multimidia),
+    path('curso_redes_de_computadores.html',curso_redes_de_computadores),
 ]

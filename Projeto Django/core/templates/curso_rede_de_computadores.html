@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="static/css/main2.css">
+    <title>FIT</title>
+    <link rel="icon" href="static/imagens/icones-ingressar.png">
+</head>
+<script>    
+	function mostrar_abas(obj) {
+
+		document.getElementById('div_aba1').style.display="none";
+		document.getElementById('div_aba2').style.display="none";
+		document.getElementById('div_aba3').style.display="none";
+		document.getElementById('div_aba4').style.display="none";
+	
+
+
+
+
+		switch (obj.id) {
+			case 'mostra_aba1':
+			document.getElementById('div_aba1').style.display="block";
+			break
+			case 'mostra_aba2':
+			document.getElementById('div_aba2').style.display="block";
+			break
+			case 'mostra_aba3':
+			document.getElementById('div_aba3').style.display="block";
+			break
+			case 'mostra_aba4':
+			document.getElementById('div_aba4').style.display="block";
+			break
+	
+		}
+	}
+
+</script>
+
+
+
+<body> 
+
+    
+
+	<img class="logo_impct" src="static/imagens/logo.png" alt="logo"> 
+	<nav id="menu"> <!--A teg nav é de navegação ela é parecida com a div mais ela ja é propria para navegar em menu ,sub_menu -->
+		<ul id="ul">
+			<li>Home</li>
+			<li>Graduação
+				<ul>
+				<!--	<li>Administração   </li>
+					<li class="li2">Analise e Desenvolvimento de Sistemas</li>
+					<li>Banco de dados</li>
+					<li>Sistemas de informação</li>
+					<li>Engenharia da computação</li>
+					<li class="li6">Gestão da tecnologia da informação</li>
+					<li>Jogos Digitais</li>
+					<li>Processos Gerencias</li>
+					<li>Produção Multimidia</li>
+					<li>Redes de computadores</li>-->
+				</ul>
+			</li>
+			<li>Impacta</li>
+			<li>Contato</li>
+
+
+		</ul>
+	</nav>
+	<div><button class="bt_log">Login</button></div>
+    <img class="vetor_logo" src="" alt="">
+    
+    <div class= "texto_pag">
+        <p ><h1>Administração</h1></p>
+    </div>
+	
+
+	
+	<div class="movimento">
+		<div class="div1">
+			<div class="div2">
+				<h3  onclick="mostrar_abas(this);" id="mostra_aba1" >1° Semestre</h3> 
+				<h3  onclick="mostrar_abas(this);" id="mostra_aba2" >2° Semestre</h3> 
+				<h3  onclick="mostrar_abas(this);" id="mostra_aba3" >3° Semestre</h3> 
+				<h3  onclick="mostrar_abas(this);" id="mostra_aba4" >4° Semestre</h3>
+			
+			</div>
+		</div>
+		<!-- abas -->
+
+		<div id="div_aba1" style="display:block;">
+            <p class="text1">
+                Administração de Redes e Sistemas: 80 horas
+                Histórico e evolução do sistema operacional Windows para servidores. Instalação do Windows Server. 
+                Conceitos de grupos de trabalho e controlador de domínio, estrutura lógica do domínios, florestas e árvores. 
+                Serviços de resolução de nomes. Fundamentos e administração básica sobre Active Directory. Cotas de disco. 
+                Administração de grupos e contas de usuários, criação e utilização de scripts de logon de usuários. Diretivas 
+                de grupo. Serviço de Configuração dinâmica de endereços (DHCP). Auditoria de eventos.
+                <br><br>
+                
+                Arquitetura de Redes de Computadores: 80 horas
+                Introdução a comunicação de dados. Topologia de redes, tipos de enlace, meios de transmissão (Fundamentos 
+                teóricos de transmissão. Meios físicos; propriedades dos sinais; tipos e modos de transmissão), modos de 
+                transmissão, modulação, comutação, arquitetura de rede, software/hardware de rede, modelo de referência OSI, 
+                serviços, camadas e protocolos; funções de cada camada. Características da Arquitetura TCP/IP. Componentes 
+                básicos de uma rede. Introdução a Redes locais, longa distância e alta velocidade, sem fio e satélite; 
+                Endereçamento e configuração de host. Padrões ieee 802.
+                <br><br>
+                
+                Cabeamento Estruturado: 80 horas
+                Introdução aos sistemas de cabeamento estruturado. Transmissão de dados em redes de computadores. 
+                Sistema de cabeamento estruturado. Interferência entre circuitos. Normas de cabeamento estruturado. 
+                Normas EIA/TIA (Electric Industries Association / Telecommunications Industries Association). Norma 
+                EIA/TIA 568A – Cabeamento Estruturado. Norma EIA/TIA 569 – Passagens e espaços. EIA/TIA 606 – 
+                Infraestrutura de edifícios comerciais. EIA/TIA 607 – Aterramento. EIA/TIA 570 – Edifícios residenciais. 
+                Planejamento e projeto de sistemas estruturados usando a abordagem top-down.
+                <br><br>
+                
+                Comunicação e Expressão (EAD): 80 horas
+                A fluência na língua materna possibilita a plena compreensão dos textos indicados e a excelência 
+                na produção cientifica. Aplicação prática da expressividade ao falar em público, com direcionamento 
+                acadêmico e empresarial. Desenvolvimento de textos corporativos e científicos. Leitura crítica e 
+                interpretativa. Elaboração de textos, permeados pela clareza, intencionalidade, coesão e coerência. 
+                Orientação para emprego da ABNT em produções científicas.
+                <br><br>
+                
+                Fundamentos de Sistemas Operacionais: 40 horas
+                A evolução dos Sistemas Operacionais. Conceito de Processo. Gerência de Processos/Processador. 
+                Comunicação, Concorrência e Sincronização de Processos. Gerenciamento de Memória: Memória Virtual, 
+                Paginação, Segmentação e Swap. Gerenciamento de Arquivos. Gerenciamento de Dispositivos de Entrada 
+                e Saída.
+                <br><br>
+                
+                Introdução a Internet das Coisas - IOT: 80 horas
+                Introdução à computação ubíqua. Desenvolvimento de soluções IoT. Tipos de transdutores, sensores e 
+                atuadores. Componentes básicos do computador e dispositivos de Internet das coisas (Arduino). 
+                Funcionalidades dos subsistemas de memória, unidade central de processamento, barramentos e sistema 
+                de entrada/saída. Processos, sistemas de arquivos e drivers.
+                <br><br>
+                
+                Libras: 40 horas
+                Aquisição de uma nova língua: Língua Brasileira de Sinais (LIBRAS).
+                
+                Oferecer o conceito de Libras, Fundamentos históricos da educação de surdos. Legislação específica. 
+                Aspectos Linguísticos da Libras. Compreender os principais aspectos da Língua Brasileira de Sinais – 
+                Libras, língua oficial da comunidade surda brasileira, contribuindo para a inclusão educacional dos 
+                alunos surdos.
+                <br><br>
+                
+                Programação em Redes: 80 horas
+                Desenvolver conceitos básicos da Lógica de Programação; Entender as etapas de geração de um programa; 
+                criando um programa; Analisar e Entender código SQL; fundamentos de modelos de dados relacionais; 
+                gerando dump de base de dados.
+                <br>
+                Subtotal: 560 horas
+
+            </p>
+		</div>
+		<div id="div_aba2" style="display:none;">
+            <p class="text2"> 
+                Administração de Redes e Sistemas Operacionais Livres: 40 horas
+                Entender os conceitos básicos de administração de configurações e serviços de redes em sistemas 
+                operacionais da plataforma Linux. Compreender os conceitos de tecnologias de serviços de redes 
+                em ambientes computacionais distribuídos. Desenvolver de forma geral os requisitos necessários 
+                para configuração de serviços de redes e suas correlações dentro de um ambiente de rede distribuído. 
+                Saber conceitualmente o funcionamento dos principais serviços de redes utilizados na plataforma Linux.
+                <br><br>
+                
+                Ambiente de Desenvolvimento e Operação -DevOps: 80 horas
+                Gerenciamento e Configuração de Mudanças. Instalação e configuração de ambientes operacionais e ferramentas 
+                em máquinas virtuais, local e em nuvem: Sistema Operacional, Compilador / Interpretador, Ambientes de 
+                Testes de Unidade. Git / GitHub, Servidor de Aplicação e wikis. Utilizando os ambientes criados para a 
+                especificação e codificação da OPE.
+                <br><br>
+                 
+                
+                Gestão de Projetos: 40 horas
+                Introdução à gestão tradicional de projetos. PMI. PMI. Agile Mindset. Manifesto A´gil. Gestão Ágil 
+                de Projetos (SCRUM): Gerência de time autogerenciável e os papéis. Time-boxes. Sprint. Planning meeting. 
+                Review meeting. feedback. Retrospectiva e daily scrum. Scrum Master. Práticas Scrum.
+                <br><br>
+                
+                Gestão de TI: 80 horas
+                Introdução a Gestão de TI. Caracteristicas e diferenças entre Gestão de Serviços e Gestão de TI; 
+                Gerenciamento de serviços com base no conjunto de melhores práticas baseado no ITIL (Information 
+                Technology Infrastructure Library Biblioteca de Infra-estrutura de Tecnologia da Informação). 
+                ISO 20000.
+                <br><br>
+                
+                OPE1 - Oficina de Projeto Empresa 1: 40 horas
+                Apresentação da proposta e objetivos da OPE (OFICINA DE PROJETOS EM EMPRESAS). Definição do 
+                problema e sua respectiva solução. Criação e gerenciamento do plano de projetos. Elaboração do 
+                projeto, definição do problema e a solução para o cliente.
+                <br><br>
+                
+                Redes de Longa Distância: 40 horas
+                Definições das redes Longa Distância, Tecnologias e protocolos de redes WAN, configuração de 
+                protocolos WAN e apresentação de novos protocolos para redes metropolitanas (MAN), serviços de 
+                acesso remoto.
+                <br><br>
+                
+                Routing: 80 horas
+                Arquitetura dos roteadores, boas práticas de configuração, Sistemas Operacionais dos Roteadores, 
+                fundamentação sobre roteamento manual e automático, protocolos de roteamento dinâmicos.
+                <br><br>
+                
+                Segurança em Infraestrutura: 80 horas
+                Entender os conceitos básicos de Segurança da Informação; Saber da importância da postura ética 
+                e profissional ao tratar de assuntos relacionados à Segurança da Informação; Entender as diversas 
+                topologias de rede utilizadas para a proteção de dados; identificar vulnerabilidades simples em um 
+                ambiente de rede. Conhecer os principais tipos de ataques a infraestrutura de redes. Conceitos os 
+                tipos de Firewall (Filtro de pacotes, aplicação e inspeção de estados). Conceitos de criptografia 
+                simétrica e assimétrica. Certificado e assinatura digital.
+                <br>
+                 
+                
+                Subtotal: 480 horas
+                
+			
+			 </p>
+		</div>
+		<div id="div_aba3" style="display:block;">
+			<p class="text3">
+                Comunicação de Dados: 40 horas
+                Conceitos básicos de sinais de dados aplicados aos sistemas de transmissão e os tipos de sinais existentes 
+                e suas diferenças, assim como parâmetros e comportamento dos sistemas de comunicação.
+                <br><br>
+                 
+                
+                Diagnóstico e Gerenciamento de Redes: 80 horas
+                Entender os conceitos básicos de administração de configurações e serviços de redes e de protocolos de 
+                Gerenciamento de Redes; compreender os conceitos de tecnologias de Gerenciamento de Redes e o Gerenciamento 
+                alinhado aos negócios; analisar de forma geral incidentes na Infraestrutura de TI; desenvolver o 
+                Gerenciamento de Infraestrutura utilizando ferramentas existentes no mercado e também a avaliação 
+                da ferramenta que atenderá a sua necessidade.
+                <br><br>
+                
+                Legislação e Ética: 40 horas
+                Direito Digital. Propriedade Intelectual em especial Direito Autoral. Lei de Software. Princípios 
+                Gerais do Direito do Consumidor. Licitações e Contratos de Informática. Tributação de Software e 
+                de Serviços de Informática. Ética Profissional: Regulação Profissional.
+                <br><br>
+                
+                Libras: 40 horas
+                Aquisição de uma nova língua: Língua Brasileira de Sinais (LIBRAS).
+                
+                Oferecer o conceito de Libras, Fundamentos históricos da educação de surdos. Legislação específica. 
+                Aspectos Linguísticos da Libras. Compreender os principais aspectos da Língua Brasileira de Sinais – 
+                Libras, língua oficial da comunidade surda brasileira, contribuindo para a inclusão educacional dos 
+                alunos surdos.
+                <br><br>
+                
+                OPE 2 - Oficina Projeto de Empesa 2 : 40 horas
+                Conjunto de oficinas e atividades visando a entrega e o acompanhamento das tarefas acordadas no projeto.
+                <br><br>
+                
+                Redes Convergentes: 80 horas
+                Tecnologias e tipos de redes convergentes, tais como: dados, voz e vídeo. Arquitetura das redes 
+                atuais e das redes futuras para convergência de voz. Voz sobre IP (VoIP). Codificadores de voz. 
+                Arquitetura H.323: Gateway, Gatekeeper, Terminais H.323, MCU. Protocolos H.323, TCP, UDP e IP. 
+                Arquitetura VoIP da IETF: MGCP, MEGACO, SIP, SDP, CRTP, RTP, RTSP. Outros protocolos: IAX. 
+                Exemplos de serviços de redes convergentes.Serviços de vídeo: HTDV, TV interativa, Vídeo sob 
+                demanda (VoD) e streaming de vídeo. Qualidade de Serviço (QoS): Necessidade de QoS, técnicas e 
+                mecanismos, cálculo de largura de banda, IntServ, DiffServ
+                <br><br>
+                 
+                
+                Segurança em Sistemas: 80 horas
+                
+                Ser capaz de entender os conceitos de segurança de sistemas da informação bem como manter um 
+                ambiente de desenvolvimento seguro e estável. Ser capaz de aplicar as técnicas de desenvolvimento 
+                de software seguro, seguindo padrões ou metodologias pré-estabelecidas. Ser capaz de identificar 
+                eventuais discrepâncias em modelos de desenvolvimento de sistemas otimizando os mesmo para que 
+                sejam desenvolvidos de forma segura e dinâmica.
+                <br><br>
+                
+                Sociedade e Sustentabilidade: 40 horas
+                Identificar o papel do administrador de empresa no século XXI, considerando  a fundamentação 
+                teórica, sob uma ótica de desenvolvimento sustentável, vislumbrando Organizações em equilíbrio 
+                Econômico-financeiro e que respeitem a sociedade e o meio ambiente. Desenvolver competências, para 
+                compreender o mundo a seu redor e propor alternativas menos danosas ao meio ambiente e a sociedade, 
+                sempre com a premissa da saúde financeira da Organização, bem como, de oportunidade de negócios.
+                <br><br>
+                
+                Switching: 80 horas
+                Arquitetura dos switches, boas práticas de configuração, conceituação de Redes Locais Virtuais 
+                (VLANs) e seus protocolos, Spanning-Tree Protocol (STP), Agregação de Links e roteamento entre 
+                VLANs.
+                <br>
+                 
+                Subtotal: 520 horas
+            </p>
+		</div>
+		<div id="div_aba4" style="display:block;">
+			<p class="text4">
+                
+                Auditoria e Controle em TI: 40 horas
+                Evolução da área de TI na organização. As questões de TI que afetam as organizações. 
+                O alinhamento entre estratégia corporativa e TI. Conceitos de governança corporativa 
+                e governança de TI. A necessidade de controles para a governança de TI. O uso do cobit 
+                na governança de TI. Estrutura do cobit objetivos de controle, práticas de controle, 
+                diretrizes de gerenciamento, diretrizes de auditoria.
+                <br><br>
+                            
+                Computação em Nuvem: 80 horas
+                Introdução a Computação em Nuvem. Princípios da Computação em Nuvem. Conceitos, vantagens, 
+                desvantagens e características. Arquitetura da Computação em Nuvem: Infraestrutura como Serviço 
+                (Infrastructure as a Service - IaaS ). Plataforma como Serviço (Platform as a Service - PaaS ) 
+                e Software como Serviço (Software as a Service - SaaS ). Segurança no armazenamento de dados em 
+                Computação em Nuvem.
+                <br><br>
+                            
+                            
+                            
+                Comunicações Móveis: 80 horas
+                Desenvolver conceitos básicos de rádio propagação e de tecnologias de redes sem fio. 
+                Inteirar-se de problemas de instalação, segurança e aspectos tecnológicos de comunicações 
+                móveis. Desenvolver a implantação de redes sem fio.
+                <br><br>
+                            
+                OPE 3 - Oficina Projeto de Empesa 3: 120 horas
+                Conjunto de oficinas e atividades realizadas ao final do curso, visando propiciar vivência do 
+                aluno em ambiente real de trabalho. Entrega do projeto e sua respectiva solução.
+                <br><br>
+                            
+                Redes IPV6: 80 horas
+                Protocolos IPv6 e ICMPv6. Coexistência e transição do IPv4 para IPv6. Roteamento, serviços e 
+                segurança no IPv6.
+                <br><br>
+                            
+                Serviços em Redes de Computadores: 80 horas
+                Configuração de Servidor de Nomes, Servidor DHCP, Servidor de Armazenamento de Arquivos, 
+                Configuração de Servidor de Transferência de Arquivos, e Servidor Web. Vulnerabilidades 
+                em serviços de redes.
+                <br><br>
+                            
+                Tópicos Especiais em Redes de Computadores: 40 horas
+                Indústria 4.0. Redes SDN. Redes de sensores. Kit comercial para desenvolvimento IoT. 
+                Laboratórios de Construção de Módulos. Desenvolvimento de projeto sistema IOT para 
+                aplicação em contexto de indústria 4.0
+                <br>
+                            
+                Subtotal: 520 horas
+            </p>
+               
+		</div>
+		
+	</div>
+
+	
+
+	<div id="rodp">
+		<p class="rod">© Copyright desde 2018 BinaryWork, todos os direitos reservados </p>
+	</div>  
+
+
+
+
+
+</body>
+</html>
