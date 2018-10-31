@@ -22,6 +22,7 @@ urlpatterns = [
     path('',index),
     path('admin/', admin.site.urls),
     path('index.html',home),
+    path('login.html',login),
     path('curso_administracao.html',curso_administracao),
     path('curso_banco_de_dados.html',curso_banco_de_dados),
     path('curso_sistemas_de_informacao.html',curso_sistemas_de_informacao),
