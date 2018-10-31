@@ -36,5 +36,6 @@ def curso_producao_multimidia(request):
 def curso_redes_de_computadores(request):
     return render (request,"curso_redes_de_computadores.html") 
 
-#def curso_analise_e_desenvolvimento_sistemas(request):
-#    return render (request,"curso_analise_e_desenvolvimento_de_sistemas.html" )
+def curso_analise_e_desenvolvimento_de_sistemas(request):
+    return render (request,"curso_analise_e_desenvolvimento_de_sistemas.html")
+

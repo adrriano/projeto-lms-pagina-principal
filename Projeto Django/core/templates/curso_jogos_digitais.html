@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="static/css/main2.css">
+	<title>FIT</title>
+	<link rel="icon" href="static/imagens/icones-ingressar.png">
+</head>
+<script>    
+	function mostrar_abas(obj) {
+
+		document.getElementById('div_aba1').style.display="none";
+		document.getElementById('div_aba2').style.display="none";
+		document.getElementById('div_aba3').style.display="none";
+		document.getElementById('div_aba4').style.display="none";
+		
+
+		switch (obj.id) {
+			case 'mostra_aba1':
+			document.getElementById('div_aba1').style.display="block";
+			break
+			case 'mostra_aba2':
+			document.getElementById('div_aba2').style.display="block";
+			break
+			case 'mostra_aba3':
+			document.getElementById('div_aba3').style.display="block";
+			break
+			case 'mostra_aba4':
+			document.getElementById('div_aba4').style.display="block";
+			break
+			
+		}
+	}
+
+</script>
+<body> 
+	<img class="logo_impct" src="logo.png" alt="logo"> <br>
+	<div><button class="bt_log">Voltar</button></div><br>
+    
+    <div class= "texto_pag">
+        <p ><h1>Jogos Digitais</h1></p>
+    </div>
+	<div class="movimento">
+		<div class="div1">
+			<div class="div2">
+				<h3  onclick="mostrar_abas(this);" id="mostra_aba1" >1° Semestre</h3> 
+				<h3  onclick="mostrar_abas(this);" id="mostra_aba2" >2° Semestre</h3> 
+				<h3  onclick="mostrar_abas(this);" id="mostra_aba3" >3° Semestre</h3> 
+				<h3  onclick="mostrar_abas(this);" id="mostra_aba4" >4° Semestre</h3>
+				
+			</div>
+		</div>
+		<!-- abas -->
+       
+        <div id="div_aba1" style="display:block;">
+            <p class="text1">
+                    Arte 2D para Jogos Digitais: 80 horas<br>
+                    Conceitos, técnicas e ferramentas para elaboração dos elementos de arte visual 
+                    2D utilizados no desenvolvimento de jogos digitais.   
+                    <br><br>
+                    Desenho e Concept Art para Jogos: 80 horas<br>
+                    Desenvolvimento das capacidades de visualização espacial, expressão e interpretação 
+                    gráfica como preparação para o processo de desenvolvimento de jogos digitais.
+                    <br><br>
+                    Design de Jogos I: 80 horas<br>
+                    Conhecer e aplicar as principais ferramentas conceituais existentes em game design. 
+                    Analisar crítica e tecnicamente jogos digitais.
+                    <br><br>
+                    Empreendedorismo: 40 horas<br>
+                    Compreensão do que significa o empreendedorismo, das características de um empreendedor, 
+                    dos detalhes da criação e planejamento de um empreendimento.
+                    <br><br>
+                    Introdução à programação para Jogos Digitais: 80 horas<br>
+                    Compreensão e aplicação dos princípios fundamentais de programação no desenvolvimento de 
+                    jogos digitais.
+                     <br><br>
+                    Libras: 40 horas<br>
+                    Aquisição de uma nova língua: Língua Brasileira de Sinais (LIBRAS).                
+                    Oferecer o conceito de Libras, Fundamentos históricos da educação de surdos. 
+                    Legislação específica. Aspectos Linguísticos da Libras. Compreender os 
+                    principais aspectos da Língua Brasileira de Sinais – Libras, língua oficial 
+                    da comunidade surda brasileira, contribuindo para a inclusão educacional dos alunos surdos.
+                    <br><br>
+                    Sociedade e Sustentabilidade: 40 horas<br>
+                    Identificar o papel do administrador de empresa no século XXI, considerando  a 
+                    fundamentação teórica, sob uma ótica de desenvolvimento sustentável, 
+                    vislumbrando Organizações em equilíbrio Econômico-financeiro 
+                    e que respeitem a sociedade e o meio ambiente. Desenvolver competências, 
+                    para compreender o mundo a seu redor e propor alternativas menos danosas 
+                    ao meio ambiente e a sociedade, sempre com a premissa da saúde financeira 
+                    da Organização, bem como, de oportunidade de negócios.
+                    <br><br>
+
+                    Subtotal: 440 horas
+                                        
+                    <br><br>
+                    </p>
+		</div>
+		<div id="div_aba2" style="display:none;">
+			<p class="text2"> 
+                    Ambiente de Desenvolvimento de Jogos Digitais: 80 horas<br>
+                    Apresentação, estudo e aplicação de um ou mais engines no desenvolvimento de jogos digitais.                  
+					<br><br>
+					Arte 3D para Jogos Digitais: 80 horas<br>
+                    Conceitos, técnicas e ferramentas para elaboração dos elementos de arte visual 2D utilizados 
+                    no desenvolvimento de jogos digitais.
+					<br><br>
+					Design de Jogos II: 80 horas<br>
+                    Conhecer e aplicar as principais ferramentas conceituais existentes em game design. 
+                    Analisar crítica e tecnicamente jogos digitais.
+					<br><br>
+					Game Level Design: 80 horas<br>
+                    Elaboração das fases (níveis) dos jogos digitais de acordo com suas características tais 
+                    como ambientes, cenários, fases, metas e outros elementos relacionados.
+					<br><br>
+					Processo de Produção de Jogos Digitais (EAD): 80 horas<br>
+                    Compreender o processo de produção de um jogo digital desde as fases iniciais de sua 
+                    concepção até sua entrega, fazendo uso de conceitos, metodologias, técnicas e ferramentas.
+					<br><br>
+					Programação para Jogos Digitais I: 80 horas<br>
+                    Apresentação, estudo e aplicação de linguagens de programação apropriadas ao 
+                    desenvolvimento de jogos digitais.
+                    <br><br>
+
+                    Subtotal: 480 horas
+					
+					<br><br>					
+					</p>
+					
+		</div>
+		<div id="div_aba3" style="display:none;">
+			<p class="text3"> 
+                    Design de Personagens para jogos Digitais: 80 horas<br>
+                    Elaborar personagens para jogos digitais levando em conta suas características e a 
+                    interação que terá com outros componentes do jogo.                   
+                    <br><br>
+					Interfaces para Jogos Digitais (EAD): 80 horas<br>
+                    Conhecer e ser capaz de aplicar princípios consagrados do projeto de interfaces para 
+                    jogos digitais levando em conta as características desses jogos, seu público 
+                    alvo e plataforma.
+					<br><br>
+					Jogos Digitais para Web: 80 horas<br>
+                    Compreender e aplicar adequadamente conceitos, técnicas e ferramentas adequadas ao 
+                    desenvolvimento de jogos para a World Wide Web, considerando as características 
+                    desse meio.
+					<br><br>
+					OPE1 - Oficina de Projeto Empresa 1: 80 horas<br>
+                    Configuração do Ambiente de Projeto e do Ambiente de Desenvolvimento. SCRUM na prática: 
+                    Desenvolvimento das OPEs em Sprints. Análise dos resultados. Orientações dos grupos para 
+                    mitigar problemas ou melhorar o processo / produto. Técnicas de apresentação. Template da 
+                    Monografia de OPE. Agendamento de reuniões e definição de cronogramas.
+					<br><br>
+					Programação para Jogos Digitais II: 80 horas<br>
+                    Apresentação, estudo e aplicação de linguagens de programação apropriadas ao desenvolvimento 
+                    de jogos digitais.
+					<br><br>
+					Roteirização e Storyboard para Jogos Digitais: 80 horas<br>
+                    Elaboração de roteiros e storyboards para jogos digitais.
+                    <br><br>
+
+                    Subtotal: 480 horas
+					<br><br>
+					</p>
+		</div>
+		<div id="div_aba4" style="display:none;">
+			<p  class="text4"> 
+                    Animação, Áudio e Vídeo para Jogos Digitais: 80 horas<br>
+                    Conceitos, técnicas e ferramentas para elaboração de animações e utilização 
+                    de áudio e vídeo no desenvolvimento de jogos digitais.               
+					<br><br>
+					Estudos Complementares em Jogos Digitais: 80 horas<br>
+                    Estudos de temas emergentes na área.
+					<br><br>
+					Jogos Digitais para Dispositivos Móveis: 80 horas<br>
+                    Compreender e aplicar conceitos, técnicas e ferramentas relativas a tecnologias móveis 
+                    (mobile) no desenvolvimento de jogos digitais para dispositivos móveis, como celulares, 
+                    tablets, smartphones e outros.
+					<br><br>
+					Marketing para Jogos Digitais (EAD): 80 horas<br>
+                    Estudo dos princípios do marketing aplicado aos jogos digitais levando em consideração 
+                    as características da indústria e dos jogos desenvolvidos.
+					<br><br>
+					OPE 2 - Oficina Projeto de Empesa 2 : 80 horas<br>
+                    Projeto no qual os alunos desenvolverão um jogo digital em todas as suas fases e em equipe, 
+                    promovendo uma maior integração entre as diversas disciplinas do curso.
+                    <br><br>
+                    Qualidade e Testes para Jogos Digitais: 80 horas<br>
+                    Aplicação de metodologias controle de qualidade e testes em jogos digitais levando 
+                    em consideração suas características, bem como as plataformas para as quais 
+                    estão destinados.
+                    <br><br>
+
+                    Subtotal: 480 horas
+
+                    
+					
+					<br><br>
+
+					</p>
+		
+		</div>
+
+	</div>
+        <div id="rodp">
+            <p class="rod">© Copyright desde 2018 BinaryWork, todos os direitos reservados </p>
+        </div>  
+</body>
+</html>

@@ -31,5 +31,5 @@ urlpatterns = [
     path('curso_processos_gerenciais.html',curso_processos_gerenciais),
     path('curso_producao_multimidia.html',curso_producao_multimidia),
     path('curso_redes_de_computadores.html',curso_redes_de_computadores),
-#   path('curso_analise_e_desenvolvimento_de_sistemas.html',curso_analise_e_desenvolvimento_de_sistemas),
+    path('curso_analise_e_desenvolvimento_de_sistemas.html',curso_analise_e_desenvolvimento_de_sistemas),
 ]

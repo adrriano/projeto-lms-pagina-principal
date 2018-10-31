@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="static/css/main2.css">
+	<title>FIT</title>
+	<link rel="icon" href="static/imagens/icones-ingressar.png">
+</head>
+<script>    
+	function mostrar_abas(obj) {
+
+		document.getElementById('div_aba1').style.display="none";
+		document.getElementById('div_aba2').style.display="none";
+		document.getElementById('div_aba3').style.display="none";
+		document.getElementById('div_aba4').style.display="none";
+		
+
+		switch (obj.id) {
+			case 'mostra_aba1':
+			document.getElementById('div_aba1').style.display="block";
+			break
+			case 'mostra_aba2':
+			document.getElementById('div_aba2').style.display="block";
+			break
+			case 'mostra_aba3':
+			document.getElementById('div_aba3').style.display="block";
+			break
+			case 'mostra_aba4':
+			document.getElementById('div_aba4').style.display="block";
+			break
+			
+		}
+	}
+
+</script>
+<body> 
+	<img class="logo_impct" src="logo - Copia.png" alt="logo"> 
+	<nav id="menu"> <!--A teg nav é de navegação ela é parecida com a div mais ela ja é propria para navegar em menu ,sub_menu -->
+
+    </nav>
+	<div><button class="bt_log">Voltar</button></div>
+    <img class="vetor_logo" src="" alt="">
+    
+    <div class= "texto_pag">
+        <p ><h1>Processos Gerenciais</h1></p>
+    </div>
+	<div class="movimento">
+		<div class="div1">
+			<div class="div2">
+				<h3  onclick="mostrar_abas(this);" id="mostra_aba1" >1° Semestre</h3> 
+				<h3  onclick="mostrar_abas(this);" id="mostra_aba2" >2° Semestre</h3> 
+				<h3  onclick="mostrar_abas(this);" id="mostra_aba3" >3° Semestre</h3> 
+				<h3  onclick="mostrar_abas(this);" id="mostra_aba4" >4° Semestre</h3>
+				
+			</div>
+		</div>
+		<!-- abas -->
+       
+        <div id="div_aba1" style="display:block;">
+            <p class="text1">
+                    Comunicação e Expressão (EAD): 80 horas<br>
+                    A fluência na língua materna possibilita a plena compreensão dos 
+                    textos indicados e a excelência na produção cientifica. Aplicação
+                    prática da expressividade ao falar em público, com direcionamento 
+                    acadêmico e empresarial. Desenvolvimento de textos corporativos e 
+                    científicos. Leitura crítica e interpretativa. Elaboração de textos,
+                    permeados pela clareza, intencionalidade, coesão e coerência. 
+                    Orientação para emprego da ABNT em produções científicas.
+                    <br><br>
+                    Fundamentos da Administração: 80 horas<br>
+                    Apresenta conceitos básicos da administração das organizações, introduzindo  
+                    os ambientes externo e interno das organizações. No ambiente interno são abordados 
+                    os processos básicos e as funções administrativas existentes nas empresas. 
+                    Apresenta ainda as escolas da administração clássica, permitindo que ocorra 
+                    a compreensão da influência que elas possuem dentro do cenário organizacional. 
+                    Busca mostrar o ambiente organizacional e suas respectivas características 
+                    operacionais e administrativas.                   
+                    <br><br>
+                    Macroeconomia: 80 horas<br>
+                    A disciplina visa a oferecer ao aluno do curso de Administração, em perspectiva 
+                    histórica e também prática, um panorama dos principais autores e escolas 
+                    relacionados ao tema da macroeconomia, bem como o contato com as principais 
+                    teorias relacionadas aos institutos da disciplina, tais como: 
+                    determinação de renda, inflação, setor externo e distribuição de renda, 
+                    com ênfase no caso brasileiro.
+                    <br><br>
+                    Matemática aplicada: 80 horas<br>
+                    Estudo de Coordenadas cartesianas, Funções polinomiais,  Funções de 1º 
+                    e 2º Grau, Noções de gráficos,  Limites, Derivadas, Integrais, 
+                    ferramentas do cálculo diferencial e integral aplicadas às empresas.
+                    <br><br>
+                    Modelos de Negócios e Empreendedorismo: 80 horas<br>
+                    Oferecer aos alunos ferramentas para identificar e analisar ações 
+                    empreendedoras e oportunidades de novos negócios bem como,  
+                    compreender a história dos empreendedores. Apresentar a importância 
+                    da pequena e média empresa, as dificuldades que enfrentam, os modelos 
+                    de negócios que existem. Desenvolver a compreensão quanto às start-ups, 
+                    franquias, born globals (internacionalização de empresas).
+                     <br><br>
+                    Pensamento Crítico e Ética: 80 horas<br>
+                    Análise propositiva da estrutura de enunciados, a partir do instrumental 
+                    da lógica formal e da lógica informal, para conhecimento e descrição das 
+                    regras elementares do discurso. Aprofundamento reflexivo e 
+                    crítico voltado para dilemas e questões éticas que envolvam o vínculo 
+                    prático do âmbito institucional e da convivência humana em geral. 
+                    Discussão em classe e leitura de obras dedicadas à problematização ética 
+                    do indivíduo e da sociedade, tendo em vista noções clássicas de justo 
+                    e injusto, bem e mal, certo e errado, bem como a de seus 
+                    desdobramentos contemporâneos (códigos de ética e de conduta, 
+                    responsabilidade social, sustentabilidade).
+                    <br><br>
+                                        
+                    Subtotal: 480 horas
+                    <br><br>
+                    </p>
+		</div>
+		<div id="div_aba2" style="display:none;">
+			<p class="text2"> 
+                    Análise Exploratória de Dados: 80 horas<br>
+                    Introdução à análise de dados, tipos de Dados, análise Univariada. 
+                    Medidas de Localização ou Tendência Central, medidas de Dispersão, 
+                    técnicas de Visualização Univariada, análise Bivariada, técnicas 
+                    de Visualização Bivariada, correlação. Regressão Linear.
+					<br><br>
+					Cálculo: 80 horas<br>
+                    Estudo dos principais conceitos da matemática básica com ênfase 
+                    nas aplicações de oferta e de demanda; modelagem de problemas; 
+                    construção, análise de gráficos e análise econômica. Introdução ao 
+                    cálculo diferencial partindo de noções de limites, derivadas e suas 
+                    aplicações. Introdução ao cálculo integral e suas aplicações em situações 
+                    administrativo-econômicas.
+					<br><br>
+					Contabilidade Finaceira: 80 horas<br>
+                    Abordagem de contabilidade financeira, permitindo a identificação 
+                    e caracterização das principais demonstrações financeiras para o 
+                    controle da organização. Análise das técnicas das demonstrações financeiras, 
+                    identificando  a confiabilidade destes dados fortalecendo os preceitos 
+                    essenciais da empresa como,  honestidade, ética e equidade. 
+                    Conceitos básicos da contabilidade financeira, desenvolvendo para o 
+                    administrador uma visão alternativa da empresa e tomada de decisões. 
+                    Entender os métodos de elaboração do Fluxo de Caixa.
+					<br><br>
+					Libras: 40 horas<br>
+                    Aquisição de uma nova língua: Língua Brasileira de Sinais (LIBRAS).
+                    Oferecer o conceito de Libras, Fundamentos históricos da educação de surdos. 
+                    Legislação específica. Aspectos Linguísticos da Libras. Compreender os 
+                    principais aspectos da Língua Brasileira de Sinais – Libras, língua 
+                    oficial da comunidade surda brasileira, contribuindo para a inclusão 
+                    educacional dos alunos surdos.
+					<br><br>
+					Microeconomia: 80 horas<br>
+                    Busca lançar as bases para o entendimento empresarial  em termos técnicos. 
+                    A empresa vista como ente econômico essencial na formação do mercado, 
+                    possuidora de mecanismos e características próprias e peculiares. 
+                    Diferenciando-se do ambiente macroeconômico, a economia da empresa trata 
+                    das variáveis unitárias como o comportamento individual do cada consumidor 
+                    e seus mecanismos básicos como demanda, elasticidade, custos e produção. 
+                    Tratados em profundidade esses conhecimentos formam o corpo teórico da 
+                    Economia de Empresas, também identificados como teoria microeconômica ou teoria da firma.
+					<br><br>
+					Raciocínio Analítico : 40 horas<br>
+                    Desenvolver a capacidade do aluno, ler, escrever e pensar de maneira 
+                    sustentável e crítica, no que diz respeito aos aspectos informais dos argumentos. 
+                    Desenvolver a habilidade de estruturar um argumento apresentado em 
+                    discurso escrito ou oral, sua capacidade de reconhecer os recursos argumentativos 
+                    nele presentes e,  o senso crítico para avaliá-los.
+					<br><br>
+					Sociedade e Política: 40 horas<br>
+                    Áreas constitutivas das Ciências Sociais: Sociologia: estuda o homem e o 
+                    universo sociocultural, analise das inter-relações entre os diversos 
+                    fenômenos sociais, impactos que o uso da tecnologia causa na sociedade, 
+                    do desenvolvimento e geração de riqueza considerando o uso adequado dos recursos 
+                    naturais e da formação e evolução da sociedade brasileira com ênfase nas relações 
+                    étnico-raciais e no papel das diferentes etnias nesse processo. 
+					<br><br>
+					Sociedade e Sustentabilidade: 40 horas<br>
+                    Identificar o papel do administrador de empresa no século XXI, considerando  
+                    a fundamentação teórica, sob uma ótica de desenvolvimento sustentável, 
+                    vislumbrando Organizações em equilíbrio Econômico-financeiro 
+                    e que respeitem a sociedade e o meio ambiente. Desenvolver competências, 
+                    para compreender o mundo a seu redor e propor alternativas menos danosas 
+                    ao meio ambiente e a sociedade, sempre com a premissa da saúde 
+                    financeira da Organização, bem como, de oportunidade de negócios.
+                    <br><br>
+
+                    Subtotal: 480 horas
+					<br><br>					
+					</p>
+					
+		</div>
+		<div id="div_aba3" style="display:none;">
+			<p class="text3"> 
+                    Comportamento Organizacional: 40 horas<br>
+                    O comportamento  organizacional comportamento dos indivíduos e dos grupos.  
+                    As dimensões individual e interpessoal: personalidade, percepção e atribuição; 
+                    valores e atitudes; motivação; vínculos com a organização. Papéis e estilos 
+                    gerenciais, comunicação e tipos de liderança As dimensões grupal e 
+                    organizacional: clima e cultura organizacional. Poder e conflito nas organizações. 
+                    Cultura organizacional.
+                    <br><br>
+					Contabilidade Gerencial: 80 horas<br>
+                    Conceitos básicos e fundamentais da contabilidade gerencial, como instrumento 
+                    de gestão empresarial. Conhecer as técnicas de elaboração, análise e interpretação 
+                    das demonstrações contábeis a fim de coletar informações e dados contábeis 
+                    para a tomada de decisão. O administrador deve saber ao final como e onde 
+                    usar as seguintes ferramentas: balancetes, balanço patrimonial, demonstrativo 
+                    do resultado do exercício e demonstrações de origens e aplicação de recursos.
+					<br><br>
+					Gestão de Projetos e Programas: 80 horas<br>
+                    Fundamentos da Gestão de Projetos: Introdução e Histórico; Benefícios do 
+                    Gerenciamento de Projetos. O Contexto da Gestão de Projetos; Fases e 
+                    Ciclo de Vida de Projetos; Gráficos de Controle, Work-flow. 
+                    Gerenciamento de Stakeholders. O sucesso do projeto depende ainda 
+                    do acerto da escolha da metodologia adequada, PMI, ITIL, COBIT, CMMI, 
+                    ISO 10006, PRINCE2. IPMA. Governança Corporativa.
+					<br><br>
+					Inteligência de Negócios: 80 horas<br>
+                    Apresentar e discutir conceitos de administração da informação, informação 
+                    estratégica e sua aplicabilidade ao mundo de negócios. Apresentar 
+                    padrões e técnicas para o uso dos diversos sistemas de apoio a decisão 
+                    estratégica baseados em Data Mart, Data Warehouse e Data Mining.
+					<br><br>
+					Matemática Financeira: 40 horas<br>
+                    Conceitos fundamentais de matemática financeira e comercial, visando a 
+                    aplicação destes como instrumentos para o processo de análise e tomada 
+                    de decisões financeiras nas empresas. Procura, também, desenvolver o raciocínio 
+                    lógico, bem como auxiliar na compreensão e interpretação das tendências de mercado 
+                    e de suas mudanças. Juros simples e compostos. Descontos simples e compostos. 
+                    Real e nominal. Rendas. Tipos de taxas. Operação de descontos. Sequência de pagamentos. 
+                    Amortização de dívidas. Sistemas de empréstimos. Anuidades. 
+                    Capitalização. Correção Monetária. Amortização de débitos. Comparação entre 
+                    alternativas de investimentos. Depreciação. Custos operacionais. Preço atual. Preço futuro.
+					<br><br>
+					Modelagem de Processos de Negócios: 80 horas<br>
+                    Preparar o profissional para ter a visão estratégica do negócio, preparando-o 
+                    desta forma,  para intervir na organização por meio das ações próprias do analista, 
+                    tais como, formatar, definir o design da estrutura organizacional e racionalização 
+                    de processos. Demonstrar as ferramentas para a  produtividade: fluxograma, organogramas, 
+                    funcionograma, “layout – arranjo físico. 
+                    <br><br>
+
+                    Subtotal: 400 horas
+					<br><br>
+					</p>
+		</div>
+		<div id="div_aba4" style="display:none;">
+			<p  class="text4"> 
+                    Administração Financeira: 80 horas<br>
+                    As funções do Administrador Financeiro. Significado e objetivo da gestão financeira. 
+                    Gestão do ativo circulante. Gestão do Passivo Circulante. Fontes de recursos a 
+                    longo prazo. Política de Dividendos. Formação de preços de vendas. 
+                    Factoring. Planejamento Financeiro e Orçamento.
+					<br><br>
+					Estratégia Organizacional: 80 horas<br>
+                    Contextualização e definição de estratégia, ambiente interno externo das organizações. 
+                    As escolas e as tipologias de estratégia. Etapas para a formulação, implementação e 
+                    acompanhamento das estratégias e visão sistêmica da organização. 
+                    Analise do papel estratégico do desenho organizacional  e seu contexto competitivo 
+                    com  o foco na dinâmica da mudança organizacional.
+					<br><br>
+					Gestão de Marketing: 80 horas<br>
+                    Compreender as dimensões estratégicas e táticas do marketing e integrá-las na 
+                    busca de uma posição competitiva sustentável no mercado, utilizando suas 
+                    principais ferramentas: Fundamentos de Marketing, Inteligência e Pesquisa 
+                    de Mercado, Comportamento do Consumidor, Administração Estratégica de Marketing, 
+                    Produtos, Serviços, Comunicação Integrada de Marketing, Preço, Distribuição e 
+                    Varejo, Sistemas de Relacionamento Marketing Global, Desafios e 
+                    tendências para o Marketing.
+					<br><br>
+					Gestão de Operações: 80 horas<br>
+                    Compreender as dimensões estratégicas e táticas do marketing e integrá-las na 
+                    busca de uma posição competitiva sustentável no mercado, utilizando suas principais 
+                    ferramentas: Fundamentos de Marketing, Inteligência e Pesquisa de Mercado, 
+                    Comportamento do Consumidor, Administração Estratégica de Marketing, Produtos, Serviços, 
+                    Comunicação Integrada de Marketing, Preço, Distribuição e Varejo, Sistemas de 
+                    Relacionamento Marketing Global, Desafios e tendências para o Marketing.
+					<br><br>
+					Gestão Estratégica de Pessoas: 80 horas<br>
+                    A competitividade das empresas vem sendo exigida constantemente e, para ter 
+                    sucesso a área de Gestão de Pessoas vem se transformando a cada dia, sendo  
+                    seu principal desafio  acompanhar a evolução e a forma como se administram as 
+                    empresas em uma economia cada vez mais globalizada. Torna-se indispensável considerar 
+                    a extensão do papel estratégico, determinado pela acessibilidade às informações e ao 
+                    gerenciamento de pessoas, os direitos Humanos, tendo como desafio: atrair e captar, 
+                    reter e desenvolver profissionais, remunerar, avaliar desempenho, 
+                    motivação e liderança na empresa e sua importância estratégica no atual 
+                    contexto de negócios.
+                    <br><br>
+
+                    Subtotal: 400 horas
+					
+					<br><br>
+
+					</p>
+		</div>
+		
+		
+
+	</div>
+        <div id="rodp">
+            <p class="rod">© Copyright desde 2018 BinaryWork, todos os direitos reservados </p>
+        </div>  
+</body>
+</html>
