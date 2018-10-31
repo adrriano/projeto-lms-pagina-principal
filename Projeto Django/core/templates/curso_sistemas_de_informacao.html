@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="static/css/main2.css">
+	<title>Document</title>
+</head>
+<script>    
+	function mostrar_abas(obj) {
+
+		document.getElementById('div_aba1').style.display="none";
+		document.getElementById('div_aba2').style.display="none";
+		document.getElementById('div_aba3').style.display="none";
+		document.getElementById('div_aba4').style.display="none";
+		document.getElementById('div_aba5').style.display="none";
+		document.getElementById('div_aba6').style.display="none";
+		document.getElementById('div_aba7').style.display="none";
+		document.getElementById('div_aba8').style.display="none";
+
+
+
+
+		switch (obj.id) {
+			case 'mostra_aba1':
+			document.getElementById('div_aba1').style.display="block";
+			break
+			case 'mostra_aba2':
+			document.getElementById('div_aba2').style.display="block";
+			break
+			case 'mostra_aba3':
+			document.getElementById('div_aba3').style.display="block";
+			break
+			case 'mostra_aba4':
+			document.getElementById('div_aba4').style.display="block";
+			break
+			case 'mostra_aba5':
+			document.getElementById('div_aba5').style.display="block";
+			break
+			case 'mostra_aba6':
+			document.getElementById('div_aba6').style.display="block";
+			break
+			case 'mostra_aba7':
+			document.getElementById('div_aba7').style.display="block";
+			break
+			case 'mostra_aba8':
+			document.getElementById('div_aba8').style.display="block";
+			break
+		}
+	}
+
+</script>
+
+
+
+<body> 
+
+    
+
+	<img class="logo_impct" src="static/imagens/logo.png" alt="logo"> 
+	<nav id="menu"> <!--A teg nav é de navegação ela é parecida com a div mais ela ja é propria para navegar em menu ,sub_menu -->
+		<ul id="ul">
+			<a href="index.html"><li>Home</li></a>
+			<li>Graduação
+				<ul>
+				<!--	<li>Administração   </li>
+					<li class="li2">Analise e Desenvolvimento de Sistemas</li>
+					<li>Banco de dados</li>
+					<li>Sistemas de informação</li>
+					<li>Engenharia da computação</li>
+					<li class="li6">Gestão da tecnologia da informação</li>
+					<li>Jogos Digitais</li>
+					<li>Processos Gerencias</li>
+					<li>Produção Multimidia</li>
+					<li>Redes de computadores</li>-->
+				</ul>
+			</li>
+			<li>Impacta</li>
+			<li>Contato</li>
+
+
+		</ul>
+	</nav>
+	<div><button class="bt_log">Login</button></div>
+    <img class="vetor_logo" src="" alt="">
+    
+    <div class= "texto_pag">
+        <p ><h1>Sistema da informação</h1></p>
+    </div>
+	
+
+	
+	<div class="movimento">
+		<div class="div1">
+			<div class="div2">
+				<h3  onclick="mostrar_abas(this);" id="mostra_aba1" >1° Semestre</h3> 
+				<h3  onclick="mostrar_abas(this);" id="mostra_aba2" >2° Semestre</h3> 
+				<h3  onclick="mostrar_abas(this);" id="mostra_aba3" >3° Semestre</h3> 
+				<h3  onclick="mostrar_abas(this);" id="mostra_aba4" >4° Semestre</h3>
+				<h3  onclick="mostrar_abas(this);" id="mostra_aba5" >5° Semestre</h3>
+				<h3  onclick="mostrar_abas(this);" id="mostra_aba6" >6° Semestre</h3>
+				<h3  onclick="mostrar_abas(this);" id="mostra_aba7" >7° Semestre</h3>
+				<h3  onclick="mostrar_abas(this);" id="mostra_aba8" >8° Semestre</h3>
+			</div>
+		</div>
+		<!-- abas -->
+
+		<div id="div_aba1" style="display:block;">
+            <p class="text1">
+                    Comunicação e Expressão (EAD): 80 horas<br>
+                    A fluência na língua materna possibilita a plena compreensão dos textos indicados e 
+                    a excelência na produção cientifica. Aplicação prática da expressividade ao falar em público, 
+                    com direcionamento acadêmico e empresarial. Desenvolvimento de textos corporativos e científicos. 
+                    Leitura crítica e interpretativa. Elaboração de textos, permeados pela clareza, intencionalidade, 
+                    coesão e coerência. Orientação para emprego da ABNT em produções científicas.               
+                    <br><br>
+                    Fundamentos de Banco de Dados: 80 horas<br>
+                    Introdução aos Sistemas Gerenciadores de Banco de Dados. Projeto de Banco de Dados. 
+                    Projeto Conceitual de Banco de Dados: Modelo Entidade Relacionamento: UML: Uso de 
+                    Diagramas de Classes da UML para representar as Abstrações de Generalização, Agregação 
+                    e Composição. Projeto Lógico de Banco de Dados: Modelo Relacional; Normalização.                   
+                    <br><br>
+                    Introdução a Internet das Coisas - IOT: 80 horas<br>
+                    Introdução à computação ubíqua. Desenvolvimento de soluções IoT. Tipos de transdutores, 
+                    sensores e atuadores. Componentes básicos do computador e dispositivos de Internet das coisas 
+                    (Arduino). Funcionalidades dos subsistemas de memória, unidade central de processamento, 
+                    barramentos e sistema de entrada/saída. Processos, sistemas de arquivos e drivers.                    
+                    <br><br>
+                    Linguaguem de Programação I: 80 horas<br>
+                    Introdução e Conceitos de Programação e Linguagem de Programação. Linguagem de Programação 
+                    Python. Tipos de Dados. Estruturas lógicas ou de controle de fluxo. Modularização. Métodos. 
+                    Classes. Desenvolvimento de projeto IoT.                    
+                    <br><br>
+                    Lógica de Programação: 80 horas<br>
+                    Introdução à Lógica e aos Algoritmos. Tipos de Dados. Estruturas lógicas ou de controle de fluxo. 
+                    Modularização. Introdução às Estruturas de Dados. Estruturas de Dados Homogêneas. Métodos de Busca 
+                    (Busca Linear e Busca Binária). Métodos de Ordenação (Métodos Bolha, Inserção e Seleção).                    
+                     <br><br>
+                     Matemática Aplicada: 80 horas<br>
+                     Fundamentos: Relações, Funções e Matrizes. Lógica Formal: Proposições, representações simbólicas; 
+                     Lógica proposicional; Quantificadores, Predicados e Validade; Lógica de Predicados. Conjuntos, 
+                     Combinatória e Probabilidade: Teoria de Conjuntos; Contagem, Permutações e Combinações. Estatística 
+                     Descritiva: Distribuição de frequência, histograma; Medidas de tendência central: Média, mediana e moda; 
+                     Medidas de Dispersão: desvio padrão, variância.                     
+                     Subtotal: 480 horas                     
+                    <br><br>
+                    </p>
+		</div>
+		<div id="div_aba2" style="display:none;">
+            <p  class="text2"> 
+                Ambiente de Desenvolvimento e Operação -DevOps: 80 horas<br>
+                Gerenciamento e Configuração de Mudanças. Instalação e configuração de ambientes operacionais e 
+                ferramentas em máquinas virtuais, local e em nuvem: Sistema Operacional, Compilador / Interpretador, 
+                Ambientes de Testes de Unidade. Git / GitHub, Servidor de Aplicação e wikis. Utilizando os ambientes 
+                criados para a especificação e codificação da OPE.
+                <br><br>                
+                Engenharia de Software: 80 horas<br>
+                Conceitos fundamentais da Engenharia de Software. Abordagens de Análise de Software. Processos de 
+                Software. Disciplinas do curso e perfil profissional. Definição das OPEs. Checklists da Engenharia 
+                de Requisitos. Técnicas: Entrevista, Questionário, Comitê de Especialistas, Análise de Problemas, 
+                Workshop de Características, Baseline de Características e a 
+                Técnica de Reunião Formal: Walkthroughs.
+                <br><br>                
+                Gestão de Projetos: 40 horas<br>
+                Introdução à gestão tradicional de projetos. PMI. PMI. Agile Mindset. Manifesto A´gil. 
+                Gestão Ágil de Projetos (SCRUM): Gerência de time autogerenciável e os papéis. Time-boxes. 
+                Sprint. Planning meeting. Review meeting. feedback. Retrospectiva e daily scrum. 
+                Scrum Master. Práticas Scrum.
+                <br><br>                
+                Libras: 40 horas<br>
+                Aquisição de uma nova língua: Língua Brasileira de Sinais (LIBRAS).                
+                Oferecer o conceito de Libras, Fundamentos históricos da educação de surdos. 
+                Legislação específica. Aspectos Linguísticos da Libras. Compreender os principais 
+                aspectos da Língua Brasileira de Sinais – Libras, língua oficial da comunidade surda 
+                brasileira, contribuindo para a inclusão educacional dos alunos surdos.                
+                <br><br> 
+                Linguagem SQL: 80 horas<br>
+                Introdução à Linguagem SQL. Conceitos Básicos. Linguagem de Definição de Dados. Linguagem 
+                de Manipulação de Dados. Função e Procedimentos. Declaração de variável. Expressões. Instruções Básicas.
+                Estruturas de Controle. Recursos Avançados. Gatilhos (Triggers). Índices e Métodos 
+                de busca.
+                <br><br>                
+                Linguaguem de Programação II: 80 horas<br>
+                Aplicação de listas e dicionários. Projetos de desenvolvimento de soluções. 
+                Programação orientada a objetos. Arquivos e estratégias de persistência de dados. 
+                Padrões de projeto. Testes unitários automatizados.
+                <br><br>                
+                Sociedade e Sustentabilidade: 40 horas<br>
+                Identificar o papel do administrador de empresa no século XXI, considerando  
+                a fundamentação teórica, sob uma ótica de desenvolvimento sustentável, 
+                vislumbrando Organizações em equilíbrio Econômico-financeiro e que respeitem 
+                a sociedade e o meio ambiente. Desenvolver competências, para compreender o 
+                mundo a seu redor e propor alternativas menos danosas ao meio ambiente e a 
+                sociedade, sempre com a premissa da saúde financeira da Organização, 
+                bem como, de oportunidade de negócios.
+                <br><br>                
+                Tecnologia Web: 80 horas<br>
+                Conceitos e fundamentos: Internet, Intranet e Extranet. Arquitetura 
+                Cliente-Servidor. Desenvolvimento de aplicações WEB Padrões Web. 
+                HTML (HyperText Markup Language) e CSS ( Cascading Style Sheets). 
+                Sintaxe, comandos JavaScript e integração com HTML. Noções de 
+                NodeJS. Python e Framework de Desenvolvimento.  Arquitetura Model-View-Controller; 
+                a camada de acesso a banco de dados; Padrão de endereçamento http; aspetos 
+                de segurança, componentização JQuery + AJAX.                
+                Subtotal: 520 horas
+                <br><br>  
+            </p>
+		</div>
+		<div id="div_aba3" style="display:none;">
+			<p  class="text3"> 
+                    Análise e Modelagem de Sistemas: 80 horas<br>
+                    Introdução à Análise e Modelagem de Sistemas. Requisitos e Análise de Requisitos. 
+                    Modelagem de Casos de Uso. Técnica para escrever casos de uso. Detalhamento de casos 
+                    de uso. Uso correto de Includes / Extends e Especialização/Generalização. 
+                    Documento SRS (Software Requirements Specifications). Elaboração da SRS do 
+                    Projeto de OPE – Oficina de Projeto de Empresa.
+                    <br><br>                    
+                    Desenvolvimento de Aplicações Distribuídas: 80 horas<br>
+                    Arquitetura Orientada a Serviços e Web Service; Padrões, protocolos 
+                    e especificações; Frameworks e API's para o desenvolvimento de Web 
+                    Services; Desenvolvimento de Web Services; Modelo de segurança; SOA, 
+                    RESTFul Web Services e OAuth. Práticas: Definição de arquitetura orientada 
+                    a serviços envolvendo aplicações web, IoT e Móvel; Implementação usando 
+                    o WCF (Windows Communication Foundation).
+                    <br><br>                    
+                    Estrutura de Dados: 80 horas<br>
+                    Tipo de dado e Tipos abstratos de dados. Recursividade com revisão de listas 
+                    lineares; Arrays associativos. Métodos de busca e ordenação. Lista, pilha e fila. 
+                    Tabelas de Espalhamento. Dicionários e Conjuntos. Árvores. Grafo. Desenvolvimento 
+                    de um projeto de aplicação.
+                    <br><br>                    
+                    Interface Homem-Computador: 40 horas<br>
+                    Fatores Humanos de Interação, Teorias, princípios e diretrizes. Teste de usabilidade. 
+                    Gestão de processos de design. Prototipação de interfaces. Metodologia para 
+                    desenvolvimento de interfaces usáveis.                    
+                    <br><br>
+                    Modelagem de Processos de Negócios: 80 horas<br>
+                    Preparar o profissional para ter a visão estratégica do negócio, preparando-o desta forma,  
+                    para intervir na organização por meio das ações próprias do analista, tais como, formatar, 
+                    definir o design da estrutura organizacional e racionalização de processos. Demonstrar as 
+                    ferramentas para a  produtividade: fluxograma, organogramas, funcionograma, “layout – 
+                    arranjo físico.                     
+                    <br><br>
+                    OPE1 - Oficina de Projeto Empresa 1: 80 horas<br>
+                    Configuração do Ambiente de Projeto e do Ambiente de Desenvolvimento. SCRUM 
+                    na prática: Desenvolvimento das OPEs em Sprints. Análise dos resultados. 
+                    Orientações dos grupos para mitigar problemas ou melhorar o processo / produto. 
+                    Técnicas de apresentação. Template da Monografia de OPE. Agendamento de reuniões 
+                    e definição de cronogramas.                    
+                    Subtotal: 440 horas<br><br>
+            </p>
+		</div>
+		<div id="div_aba4" style="display:none;">
+			<p  class="text4"> 
+                    Arquitetura e Projeto de Sistemas : 80 horas<br>
+                    Desenvolvimento da arquitetura de sistemas de software de forma ágil. Padrões de 
+                    Comunicação, Serviço e Persistência de Dados. QFD para avaliar a qualidade da 
+                    arquitetura. Apoio às equipes das OPEs no desenvolvimento e implantação de 
+                    seus sistemas.
+                    <br><br>                    
+                    Desenvolvimento para Dispositivos Móveis: 80 horas<br>
+                    Conceitos fundamentais de desenvolvimento Mobile. Aplicativos móveis e tecnologias 
+                    (XDK, HTML, CSS, JavaScript e frameworks). HTML, CSS e Javascript. Ambiente de desenvolvimento: 
+                    XDK. Frameworks e ferramentas. Material Design e Angular. Consumo de Web Services e APIs. 
+                    Utilização de recursos do dispositivo. Mapas e localização. Repositório de dados: SQLite e 
+                    Local Storage. Notificações. Desenvolvimento de projeto.
+                    <br><br>                    
+                    Desenvolvimento para Internet das Coisas - IOT: 80 horas<br>
+                    Kit comercial para desenvolvimento IoT. Laboratórios de Construção de Módulos. 
+                    Desenvolvimento de projeto.
+                    <br><br>                    
+                    Legislação e Ética: 40 horas<br>
+                    Direito Digital. Propriedade Intelectual em especial Direito Autoral. Lei de Software. 
+                    Princípios Gerais do Direito do Consumidor. Licitações e Contratos de Informática. 
+                    Tributação de Software e de Serviços de Informática. Ética Profissional: Regulação 
+                    Profissional.
+                    <br><br>                    
+                    OPE 2 - Oficina Projeto de Empesa 2 : 80 horas<br>
+                    MVP (Minimum Viable Product). Modelagem de negócio e de análise e modelagem de sistemas 
+                    envolvendo clientes reais. Desenvolvimento da arquitetura lógica do sistema. Utilização 
+                    do ambiente DevOps. Especificação técnica do sistema (monografia da OPE).
+                    <br><br>                    
+                    Qualidade de Software: 80 horas<br>
+                    Introdução à Qualidade de Software. Qualidade de Produto x Processo. Padrões da Qualidade: 
+                    Norma ISO 9126. Gerência da Qualidade. Melhorias de Processo: Modelos de Maturidade: CMMI; MR MPs; 
+                    ISO 15504. Testes de Software: Verificação x Validação: Teste, Inspeção, Revisão. Fases da Atividade de Teste. 
+                    Teste Funcional, Teste Estrutural, Geração de Dados de Teste. Estrutura dos artefatos de Testes. 
+                    Automação de Testes. Práticas de Teste de Software: Teste de Caixa Branca; Teste de Caixa Preta; 
+                    Testes Automatizados; TDD (Test-Driven Development).                    
+                    Subtotal: 440 horas<br><br>                   
+            </p>
+		</div>
+		<div id="div_aba5" style="display:none;">
+			<p  class="text5"> 
+                    Business Agility: 80 horas<br>
+                    Mentalidade: ágil X tradicional. Organizações: ágeis X Tradicionais. Agilidade: 
+                    fator chave para a sobrevivência profissional e das empresas. Lean e Kanban: Fundamentos, 
+                    Melhoria Continua, Pull vs. Push Flow-based, WIP, Throughput e outras métricas, Como Começar. 
+                    Inovando a busca por soluções: Produtos e Serviços (MVP, Validação de Ideias, Design Sprint, 
+                    Design Thinking).
+                     <br><br>                
+                    Desenvolvimento de Sistemas de Informação: 80 horas<br>
+                    Resolução de problemas de implementação. Abordagem da Metodologia de Pesquisa na solução de problemas, 
+                    tais como: NFe. Geração de relatórios. Envio automático de SMS, whatsup, email, etc. Integração 
+                    automática com redes sociais. Emissão de Cupom fiscal. Ciclo de vendas (funcionalidade  = problema a 
+                    ser resolvido). Cálculo de caminho mínimo de entrega integrado com o google maps. Pagamento com 
+                    cartões de débito/crédito. Front end web. App mobile. Leitor de código de barras. Painel de chamada 
+                    e/ou dispositivo para que o cliente venha buscar o seu pedido.
+                    <br><br>                    
+                    Startup e Inovação: 80 horas<br>
+                    Startups. Criação e validação de ideias. Financiamento: investidores e Órgão de Fomento 
+                    à Pesquisa. Protótipos / produto / serviço. Eventos de negócio. Aspectos legais e jurídicos. 
+                    Propriedade Intelectual / Produto.
+                    <br><br>                    
+                    Teoria da Computação: 80 horas<br>
+                    Teoria dos autômatos: Geradores (gramáticas formais) e reconhecedores (autômatos) para linguagens 
+                    formais. Introdução às Linguagens Formais e Autômatos. Teoria da computabilidade: Limites da Computação 
+                    para solução de problemas por meio de algoritmos. Máquinas de Turing. Classificação de problemas 
+                    (solúveis ou insolúveis). Teoria da complexidade: Classificação de problemas computacionais de 
+                    acordo com sua dificuldade inerente e a relação entre essas classes.                             
+                    Subtotal: 320 horas<br><br>                
+            </p>
+		</div>
+		<div id="div_aba6" style="display:none;">
+			<p  class="text6"> 
+                    Análise de Viabilidade de Projetos: 80 horas<br>
+                    Desenvolvimento de Projetos de TI: viabilização de oportunidades. Solução de problemas: 
+                    Aplicação da Análise do Problema e Concepção da Solução. Análise das Soluções de Mercado. 
+                    Estimativa de Prazo e Custos. Análise de Indicadores de fluxo de caixa. Busca de fontes de 
+                    Investimento. Outros Projetos de TI: OpenSource e Startups.
+                    <br><br>                    
+                    Análise Exploratória de Dados: 80 horas<br>
+                    Fundamentos de Análise de Dados. Análise de Distribuição Univariada. Análise de Distribuição 
+                    Bivariada. Correlação e Regressão Linear. Análise, Interpretação e comunicação de padrões presentes 
+                    nos dados por meio de diferentes técnicas de visualização.
+                    <br><br>                    
+                    Gestão de Projetos de Inovação: 80 horas<br>
+                    Introdução à Gestão de Projetos de Inovação. Visão: Iniciação, Definição, Aprendizagem e 
+                    Experimentação. Direção: da visão à direção, Salto, Teste, Medição, Pivotamento. Aceleração: 
+                    Iniciação das atividades. Agrupamento em lotes. Crescimento, Adaptação e Inovação. Movimento 
+                    da Startup Enxuta.
+                    <br><br>                    
+                    Integração e Desenvolvimento de Sistemas: 80 horas<br>
+                    Desenvolvimento de Projeto de Pesquisa em Integração e Desenvolvimento de Sistemas. Validação 
+                    de hipóteses: Construção de Casos usando Padrões de Integração, Web Semântica e/ou IoT. 
+                    Abordagem: Trabalho Científico. Desenvolvimento da Pesquisa. Apresentação do projeto de 
+                    pesquisa: Preparação da apresentação; Apresentação. Publicação em Revistas e/ou Congressos 
+                    Científicos.                    
+                    Subtotal: 320 horas<br><br>                       
+            </p>
+		</div>
+		<div id="div_aba7" style="display:none;">
+			<p  class="text7"> 
+                    Business Intelligence: 80 horas<br>
+                    Processo Decisório em ambiente empresarial. Metodologias e técnicas de suporte à 
+                    decisão. Teoria dos Jogos. Teoria da Decisão. Incerteza e Risco. Cooperação. 
+                    Classificação e tipos de sistema de informação. Tecnologias de Apoio à Decisão. 
+                    Principais frameworks. Cases. Database Marketing. Business Intelligence (Data 
+                    Warehouse, Data Mining, OLAP/OLAM, Indicadores (KPI - Key Performance Indicators). 
+                    ERP. CRM. Sistemas de Informações Executivas (EIS).
+                    <br><br>                    
+                    Gestão de Infraestrutura de TI: 80 horas<br>
+                    ITIL (Information Technology Infrastructure Library); CobiT (Control objectives for 
+                    Information and related Technology); ISO/IEC 20.000; BPM (Business Process Modeling); 
+                    CMMI (Capability Maturity Model Integration); PMBOK (Project Management Body of Knowledge). 
+                    Gerência de infraestrutura de TI: Projetos e Portfólio de Projetos; Serviços (Aquisição e 
+                    Contratação de Serviços); Riscos; Segurança da Informação; Infraestrutura de TI; Pessoas; 
+                    Arquitetura Corporativa. Virtualização: Continuidade de Negócios; Computação em Nuvem; de 
+                    Serviços. Projetos e Serviços. Infraestruturas. Gestão de Custos em TI: Análise Contábil e 
+                    Financeira.
+                    <br><br>                    
+                    Segurança e Auditoria de Sistemas: 80 horas<br>
+                    Auditoria de Segurança. Comunicação: Segura e não Segura; Controle de origem e destino 
+                    e Autenticação de serviços. Identificação, Autenticação e Autorização: Gerenciamento de 
+                    identidades. Login e Senha; Privilégios. Vulnerabilidades de Sistemas. Tecnologias: 
+                    Biometria; OAuth 2.0; Honeypot; AntiSpam; Antivírus; Host IPS, Firewall, Antimalware; 
+                    Web gateway; criptografia: simétrica e assimétrica; assinatura digital e 
+                    certificados digitais.
+                    <br><br>                    
+                    Trabalho de Conclusão de Curso 1 - TCC1: 80 horas<br>
+                    Aspectos Gerais da Filosofia da Ciência. A Prática da Pesquisa. Produção Científica. 
+                    Exemplos de Pesquisa. Orientação: Apoio na Formação de Grupos de Pesquisa e na Definição 
+                    dos seguintes elementos: Tema, Hipótese da Pesquisa, Taxonomia da Pesquisa, 
+                    Revisão Bibliográfica; Sujeito da Pesquisa, Instrumentos e Procedimentos de Coleta, 
+                    Transcrição e análise dos dados, Resultados e Conclusões.                    
+                    Subtotal: 320 horas<br><br>
+            </p>
+		</div>
+		<div id="div_aba8" style="display:none;">
+			<p class="text8">  
+                    Computação Cognitiva: 80 horas<br>
+                    Definição de conceitos: Dados, Informação, Conhecimento, Aquisição 
+                    de Inteligência e Computação Cognitiva. Descoberta de conhecimento em 
+                    base de dados e as fases de Mineração de Dados. Estudo de aplicações práticas 
+                    de Mineração de Dados. Interpretação de resultados e implementação do conhecimento 
+                    adquirido. Técnicas de Mineração de Dados: Tarefas, técnicas e aplicações de aprendizagem. 
+                    Algoritmos de regressão e classificação. Algoritmos de indução de regras e árvores de 
+                    decisões. Avaliação de desempenho. Projetos: Metodologia de projeto para Mineração de Dados. 
+                    Ferramentas utilizadas em Mineração de Dados. Análise exploratória de dados e preparação dos 
+                    Dados. Definição dos projetos. Orientação e acompanhamento de projetos.
+                    <br><br>                    
+                    Governança de TI: 80 horas<br>
+                    Contexto de Governança de TI. COBIT como “guarda chuva” da Governança de TI; BSC, PMBok, 
+                    ITIL, CMMI e ISO 17.799, IT Flex, Val IT, COSO, MAnGve. Lei Sarbanes-Oxley – SOX. Guias 
+                    de Gerenciamento. Matriz RACI. Biblioteca de indicadores de desempenho de TI e de negócio. 
+                    Abordagem ágil de Governança de TI: Fundamentos; Arquitetura e Elementos; Visão Crítica e 
+                    Abordagem Prática; Casos Reais.
+                    <br><br>                    
+                    Sistemas Integrados de Gestão: 80 horas<br>
+                    Fundamentos de Sistemas de Informação.  Impactos da Tecnologia na gestão organizacional. 
+                    Sistemas Integrados de Gestão Empresarial (ERP). Fluxo de Informações. E-business. Soluções 
+                    integradas de TI: Customer Relationship Management (CRM), Supply Chain Management (SCM) e 
+                    Business Intelligence (BI). Gerenciamento estratégico de informação. Segurança em ERP. ERP 
+                    na prática. Metodologias de implantação de um ERP. Tendências.
+                    <br><br>                    
+                    Trabalho de Conclusão de Curso 2 -TCC2: 80 horas<br>
+                    Estruturação da Monografia: Elementos Pré-textuais; Elementos Textuais; Elementos Pós-Textuais; 
+                    Normalização de Trabalhos Científicos. Orientação: Finalização do TCC. Elaboração de textos 
+                    científicos adequados aos parâmetros acadêmicos e à norma culta da Língua Portuguesa. Construção
+                     e Apresentação de Monografias.                    
+                    Subtotal: 320 horas <br><br>
+            </p>
+                   
+		</div>
+	</div>
+
+	
+
+	<div id="rodp">
+		<p class="rod">© Copyright desde 2018 BinaryWork, todos os direitos reservados </p>
+	</div>  
+
+
+
+
+
+</body>
+</html>

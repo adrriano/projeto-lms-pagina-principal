@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="static/css/main2.css">
+	<title>Document</title>
+</head>
+<script>    
+	function mostrar_abas(obj) {
+
+		document.getElementById('div_aba1').style.display="none";
+		document.getElementById('div_aba2').style.display="none";
+		document.getElementById('div_aba3').style.display="none";
+		document.getElementById('div_aba4').style.display="none";
+		document.getElementById('div_aba5').style.display="none";
+		document.getElementById('div_aba6').style.display="none";
+		document.getElementById('div_aba7').style.display="none";
+		document.getElementById('div_aba8').style.display="none";
+
+
+
+
+		switch (obj.id) {
+			case 'mostra_aba1':
+			document.getElementById('div_aba1').style.display="block";
+			break
+			case 'mostra_aba2':
+			document.getElementById('div_aba2').style.display="block";
+			break
+			case 'mostra_aba3':
+			document.getElementById('div_aba3').style.display="block";
+			break
+			case 'mostra_aba4':
+			document.getElementById('div_aba4').style.display="block";
+			break
+			case 'mostra_aba5':
+			document.getElementById('div_aba5').style.display="block";
+			break
+			case 'mostra_aba6':
+			document.getElementById('div_aba6').style.display="block";
+			break
+			case 'mostra_aba7':
+			document.getElementById('div_aba7').style.display="block";
+			break
+			case 'mostra_aba8':
+			document.getElementById('div_aba8').style.display="block";
+			break
+		}
+	}
+
+</script>
+
+
+
+<body>    
+
+	<img class="logo_impct" src="static/imagens/logo.png" alt="logo"> 
+	<nav id="menu"> <!--A teg nav é de navegação ela é parecida com a div mais ela ja é propria para navegar em menu ,sub_menu -->
+		<ul id="ul">
+			<a href="index.html"><li>Home</li></a>
+			<li>Graduação
+				<ul>
+				<!--	<li>Administração   </li>
+					<li class="li2">Analise e Desenvolvimento de Sistemas</li>
+					<li>Banco de dados</li>
+					<li>Sistemas de informação</li>
+					<li>Engenharia da computação</li>
+					<li class="li6">Gestão da tecnologia da informação</li>
+					<li>Jogos Digitais</li>
+					<li>Processos Gerencias</li>
+					<li>Produção Multimidia</li>
+					<li>Redes de computadores</li>-->
+				</ul>
+			</li>
+			<li>Impacta</li>
+			<li>Contato</li>
+
+
+		</ul>
+	</nav>
+	<div><button class="bt_log">Login</button></div>
+    <img class="vetor_logo" src="" alt="">
+    
+    <div class= "texto_pag">
+        <p ><h1>Engenharia de Computação</h1></p>
+    </div>
+	
+
+	
+	<div class="movimento">
+		<div class="div1">
+			<div class="div2">
+				<h3  onclick="mostrar_abas(this);" id="mostra_aba1" >1° Semestre</h3> 
+				<h3  onclick="mostrar_abas(this);" id="mostra_aba2" >2° Semestre</h3> 
+				<h3  onclick="mostrar_abas(this);" id="mostra_aba3" >3° Semestre</h3> 
+				<h3  onclick="mostrar_abas(this);" id="mostra_aba4" >4° Semestre</h3>
+				<h3  onclick="mostrar_abas(this);" id="mostra_aba5" >5° Semestre</h3>
+				<h3  onclick="mostrar_abas(this);" id="mostra_aba6" >6° Semestre</h3>
+				<h3  onclick="mostrar_abas(this);" id="mostra_aba7" >7° Semestre</h3>
+				<h3  onclick="mostrar_abas(this);" id="mostra_aba8" >8° Semestre</h3>
+			</div>
+		</div>
+		<!-- abas -->
+
+		<div id="div_aba1" style="display:block;">
+            <p class="text1">
+                    Circuitos Digitais e Eletrônicos: 80 horas<br>
+                    Comunicação e Expressão: 80 horas<br>                    
+                    Instrodução à Internet das Coisas -IOT: 80 Horas<br>                    
+                    Linguagem de Programação I: 80 horas<br>                    
+                    Lógica de Programação: 80 horas<br>                    
+                    Matemática para Engenharia: 80 horas<br>                 
+                    Subtotal: 480 horas<br><br>    
+            </p>
+		</div>
+		<div id="div_aba2" style="display:none;">
+            <p  class="text2"> 
+                    Ambiente de Desenvolvimento e Operação - DevOps: 80 horas<br>
+                    Banco de Dados: 80 horas<br>                    
+                    Conceitos e Aplicações de Cálculo: 80 horas<br>                    
+                    Engenharia de Software: 80 horas<br>                    
+                    Língua Brasileira de Sinais - LIBRAS (Optativa): 40 horas<br>                    
+                    Linguagem de Programação II: 80 horas<br>                    
+                    Sociedade e Sustentabilidade (Optativa): 40 horas<br>
+                    Subtotal:440 horas<br><br>           
+            </p>
+		</div>
+		<div id="div_aba3" style="display:none;">
+			<p  class="text3"> 
+                    Análise e Modelagem de Sistemas: 80 horas<br>
+                    Ciências do Ambiente: 40 horas<br>                    
+                    Desenvolvimento de Aplicações Distribuídas: 80 horas<br>                    
+                    Estrutura de Dados: 80 horas<br>                    
+                    Engenharia de Requisitos: 80 horas<br>                   
+                    Modelagem e Simulação de Sistemas Físicos: 80 horas<br>                    
+                    Subtotal: 440 horas<br><br>                
+            </p>
+		</div>
+		<div id="div_aba4" style="display:none;">
+			<p  class="text4">
+                    Circuitos Elétricos: 80 horas<br>
+                    Desenvolvimento para Dispositivos Móveis: 80 horas<br>                    
+                    Desenvolvimento para Internet das Coisas - IoT: 80 horas<br>                   
+                    Eletricidade e Magnetismo Aplicados: 80 horas<br>                    
+                    Matemática Discreta: 80 horas<br>                    
+                    Otimização de Sistemas Lineares: 40 horas<br>                    
+                    Subtotal: 440 horas<br><br>            
+            </p>
+		</div>
+		<div id="div_aba5" style="display:none;">
+			<p  class="text5"> 
+                    Análise Exploratória de Dados: 80 horas<br>
+                    Análise Numérica: 40 horas<br>                    
+                    Arquitetura de Computadores e Sistemas Operacionais: 80 horas<br>                    
+                    Eletrônica Analógica e Digital: 80 horas<br>                    
+                    Linguagens Formais e Autômatos: 80 horas<br>                  
+                    Processamento Digital de Sinais: 80 horas<br>                    
+                    Subtotal: 440 horas<br><br>    
+            </p>
+		</div>
+		<div id="div_aba6" style="display:none;">
+			<p  class="text6"> 
+                    Análise de Viabilidade de Projetos: 80 horas<br>
+                    Compiladores: 80 horas<br>                    
+                    Controle e Automação: 80 horas<br>                    
+                    Gestão Ágil de Projetos: 40 horas<br>                    
+                    Inteligência Artificial: 80 horas<br>                    
+                    Sistemas Distribuídos e Cloud Computing: 80 horas<br>                    
+                    Subtotal: 440 horas<br><br>      
+            </p>
+		</div>
+		<div id="div_aba7" style="display:none;">
+			<p  class="text7"> 
+                    Economia para Engenharia: 40 horas<br>
+                    Robôs Móveis Inteligentes: 80 horas<br>                    
+                    Segurança Cibernética: 80 horas<br>                    
+                    Startup e Inovação: 80 horas<br>                    
+                    Trabalho de Conclusão de Curso 1 - TCC1: 80 horas<br>                    
+                    UX e Design Thinking: 80 horas<br>                    
+                    Subtotal: 440 horas<br><br>                
+            </p>
+		</div>
+		<div id="div_aba8" style="display:none;">
+			<p class="text8">
+                    Indústria 4.0: 80 horas<br>
+                    Legislação e Ética: 40 horas<br>                    
+                    Projeto de Sistemas Embarcados: 80 horas<br>                    
+                    Sistemas Tolerantes a Falhas: 80 horas<br>                    
+                    Tópicos Especiais em Tendências Tecnológicas: 80 horas<br>                    
+                    Trabalho de Conclusão de Curso 2 - TCC2: 80 horas<br>                    
+                    Subtotal: 440 horas<br><br>               
+            </p>                    
+		</div>
+	</div>
+
+	<div id="rodp">
+		<p class="rod">© Copyright desde 2018 BinaryWork, todos os direitos reservados </p>
+	</div> 
+</body>
+</html>
