@@ -16,7 +16,7 @@ def curso_banco_de_dados(request):
     return render (request,"curso_banco_de_dados.html") 
 
 def curso_sistemas_de_informacao(request):
-    return render (request," curso_sistema_de_informacao.html")     
+    return render (request,"curso_sistemas_de_informacao.html")     
 
 def curso_engenharia_da_computacao(request):
     return render (request,"curso_engenharia_da_computacao.html") 

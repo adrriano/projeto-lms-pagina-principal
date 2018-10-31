@@ -2,9 +2,8 @@
 <html lang="pt-br">
 <head>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" href="static/css/main2.css">
-	<title>FIT</title>
-	<link rel="icon" href="static/imagens/icones-ingressar.png">
+	<link rel="stylesheet" href="static/css/main3.css">
+	<title>Document</title>
 </head>
 <script>    
 	function mostrar_abas(obj) {
@@ -14,6 +13,8 @@
 		document.getElementById('div_aba3').style.display="none";
 		document.getElementById('div_aba4').style.display="none";
 		
+
+
 
 		switch (obj.id) {
 			case 'mostra_aba1':
@@ -27,23 +28,51 @@
 			break
 			case 'mostra_aba4':
 			document.getElementById('div_aba4').style.display="block";
-			break
-			
+			break			
 		}
 	}
 
 </script>
-<body> 
-	<img class="logo_impct" src="logo - Copia.png" alt="logo"> 
-	<nav id="menu"> <!--A teg nav é de navegação ela é parecida com a div mais ela ja é propria para navegar em menu ,sub_menu -->
 
-    </nav>
-	<div><button class="bt_log">Voltar</button></div>
+
+
+<body> 
+
+    
+
+	<img class="logo_impct" src="static/imagens/logo.png" alt="logo"> 
+	<nav id="menu"> <!--A teg nav é de navegação ela é parecida com a div mais ela ja é propria para navegar em menu ,sub_menu -->
+		<ul id="ul">
+			<a href="index.html"><li>Home</li></a>
+			<li>Graduação
+				<ul>
+				<!--	<li>Administração   </li>
+					<li class="li2">Analise e Desenvolvimento de Sistemas</li>
+					<li>Banco de dados</li>
+					<li>Sistemas de informação</li>
+					<li>Engenharia da computação</li>
+					<li class="li6">Gestão da tecnologia da informação</li>
+					<li>Jogos Digitais</li>
+					<li>Processos Gerencias</li>
+					<li>Produção Multimidia</li>
+					<li>Redes de computadores</li>-->
+				</ul>
+			</li>
+			<li>Impacta</li>
+			<li>Contato</li>
+
+
+		</ul>
+	</nav>
+	<div><button class="bt_log">Login</button></div>
     <img class="vetor_logo" src="" alt="">
     
     <div class= "texto_pag">
         <p ><h1>Processos Gerenciais</h1></p>
     </div>
+	
+
+	
 	<div class="movimento">
 		<div class="div1">
 			<div class="div2">
@@ -55,8 +84,8 @@
 			</div>
 		</div>
 		<!-- abas -->
-       
-        <div id="div_aba1" style="display:block;">
+
+		<div id="div_aba1" style="display:block;">
             <p class="text1">
                     Comunicação e Expressão (EAD): 80 horas<br>
                     A fluência na língua materna possibilita a plena compreensão dos 
@@ -292,13 +321,11 @@
 					<br><br>
 
 					</p>
-		</div>
-		
-		
 
+			</div>
 	</div>
-        <div id="rodp">
-            <p class="rod">© Copyright desde 2018 BinaryWork, todos os direitos reservados </p>
-        </div>  
+	<div id="rodp">
+		<p class="rod">© Copyright desde 2018 BinaryWork, todos os direitos reservados </p>
+	</div>  
 </body>
 </html>

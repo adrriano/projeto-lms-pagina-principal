@@ -1,6 +1,6 @@
 body{
     background-image: url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/itCjTBE/dark-blue-tech-circuit-board-technology-animated-background-video-graphic-design-ultra-hd-4k-3840x2160_sgelpuywg_thumbnail-full05.png);
- 
+    
 }
 
 #menu ul li{/*configuração do menu, preparando pra o submenu*/
@@ -58,7 +58,7 @@ body{
     border-color: rgb(0, 118, 214);
     font-size: 18px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-left: 80px;
+    margin-left: 1200px;
     margin-top: 5px;
 }
 .bt_log:hover{/* configuração do fundo do botão ao passar mouse */
@@ -98,45 +98,50 @@ body{
 /* SE FOR MECHER NO SEU BODY CRIE UMA CLASS PARA ELE, SE NAO ELE IRA ALTERAR A PAGINA RINCIPAL*/
 
 
-.text1,.text2,.text3,.text4,.texto5,.texto6,.texto7,.texto8{/* borda do texton */
-    width:1200px;
-    height:325px;
-    border: 2px solid #002d55f8;
-    color: white
+.text1,.text2,.text3,.text4,.texto5,.texto6,.texto7,.texto8{/* borda do texto interno */
+    width:1032px;
+    height:349px;
+    border: 2px solid #0fa835f8;
+    color: white; 
+    
 }    
-.text1,.text2,.text3,.text4,.texto5,.texto6,.texto7,.texto8{
-    text-align: justify;
-    font-size: 20px;
+.text1,.text2,.text3,.text4,.texto5,.texto6,.texto7,.texto8{/*configuração da caixa externa posicionamento*/
+    float: left;
+    position: relative;
+    left: 380px;
+    margin-top: 50px;
+}
+.text1,.text2,.text3,.text4,.texto5,.texto6,.texto7,.texto8{/*Configuração do texto  da disciplinas*/
+    text-align: center;
+    font-size: 18px;
     overflow: scroll;
-    position: relative;
-    left: 393px;
-    margin: -549px ;
-    top: -145px;   
+    margin-top: -368px ;  
 }
-.div1{
-    width: 1475px;
-    height: 350px;
+
+.div1{/*Configuração dad dimenções da caixa externa do menu*/
+    width: 1320px;
+    height: 374px;
     border: 5px solid #002d55f8;
-    position: relative;
-    left: 400px;
-    margin: 350px -28px;
+    margin-left: 100px;
+    
 }
-.div2{
-    float:left;
-    margin: 10px;
+.div2{/* configuração da caixa de menu interno*/
     border: 2px solid #002d55f8;
     width: 250px;
-    height: 325px;
+    height: 347px;  
     text-align: center;
-    color: white;    
+    color: white;  
+    margin-left: 10px; 
+    margin-top: 10px;
+    
 }
 #mostra_aba1:hover,#mostra_aba2:hover,#mostra_aba3:hover,#mostra_aba4:hover,#mostra_aba5:hover,#mostra_aba6:hover,#mostra_aba7:hover,#mostra_aba8:hover{
     background:#53a7ea;
 }
 
 .movimento{
-    margin-top:  -300px;
-    margin-left: -350px;
+    margin-top:  20px;
+    margin-left: -87px;
 
 }
 
@@ -146,4 +151,15 @@ body{
     margin-top: -20px;
     font-size: 30px
 }
+/*
+.gif{
+    width: 850px;
+    height: 500px;
+}
 
+.gif{
+    background-color: rgb(0, 0, 0);
+    opacity: 0.250;
+    background-color: rgba(0, 0, 0, 25s);
+}
+*/
