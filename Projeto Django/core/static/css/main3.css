@@ -45,7 +45,7 @@ body{
     background-color: linen;
 }
 #menu{
-    margin-left: 345px;/* define a possiçao que o menu ira ficar ( mais a direita ou mais a esquerda)*/
+    margin-left: 400px;/* define a possiçao que o menu ira ficar ( mais a direita ou mais a esquerda)*/
     margin-top: -75px;
 }
 .logo_impct{/*define a posição onde ira ficar o logo tipo impacta*/
@@ -98,45 +98,49 @@ body{
 /* SE FOR MECHER NO SEU BODY CRIE UMA CLASS PARA ELE, SE NAO ELE IRA ALTERAR A PAGINA RINCIPAL*/
 
 
-.text1,.text2,.text3,.text4,.texto5,.texto6,.texto7,.texto8{/* borda do texto interno */
-    width:1032px;
-    height:349px;
-    border: 2px solid #0fa835f8;
-    color: white; 
-    
+#div_aba1,#div_aba2,#div_aba3,#div_aba4,#div_aba5,#div_aba6,#div_aba7,#div_aba8{/*Configuração da borda do texto e tamanho da caixa de txt */
+    width:850px;
+    height:372px;
+    border: 3px solid #07616df8;
+    margin-top: -390px;
+    margin-left: 175px;
 }    
-.text1,.text2,.text3,.text4,.texto5,.texto6,.texto7,.texto8{/*configuração da caixa externa posicionamento*/
-    float: left;
-    position: relative;
-    left: 380px;
-    margin-top: 50px;
-}
-.text1,.text2,.text3,.text4,.texto5,.texto6,.texto7,.texto8{/*Configuração do texto  da disciplinas*/
+.text1,.text2,.text3,.text4,.text5,.text6,.text7,.text8{/* configura o texto overflow:scroll*/
+    overflow: scroll;   
+    color: #fffffff8; 
+    font-size: 25px; 
+    height: 345px;
     text-align: center;
-    font-size: 18px;
-    overflow: scroll;
-    margin-top: -368px ;  
 }
-
-.div1{/*Configuração dad dimenções da caixa externa do menu*/
-    width: 1320px;
-    height: 374px;
-    border: 5px solid #002d55f8;
-    margin-left: 100px;
-    
-}
-.div2{/* configuração da caixa de menu interno*/
-    border: 2px solid #002d55f8;
-    width: 250px;
-    height: 347px;  
+#mostra_aba1,#mostra_aba2,#mostra_aba3,#mostra_aba4,
+#mostra_aba5,#mostra_aba6,#mostra_aba7,#mostra_aba8{/*configuração do texto do menu lateral mostra_aba*/
+    font-size: 20px;
     text-align: center;
-    color: white;  
-    margin-left: 10px; 
+    color: rgb(255, 255, 255);
+}
+.div1{/*configurção da borda externa do menu lateral*/
+    border: 3px solid #07616df8;
+    width:1025px ;
+    height:385px ;
+    padding: 5px;
+    background-color: black;
+   
+}
+.div2{/*configuração da borda interna do menu lateral mostra_aba */
+    border: 3px solid #07616df8;
+    width: 155px;
+    background-color: #000000f8;
+    margin-top: 3px;
+}
+#mostra_aba1:hover,#mostra_aba2:hover,#mostra_aba3:hover,#mostra_aba4:hover,
+#mostra_aba5:hover,#mostra_aba6:hover,#mostra_aba7:hover,#mostra_aba8:hover{
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+.b1{
     margin-top: 10px;
-    
-}
-#mostra_aba1:hover,#mostra_aba2:hover,#mostra_aba3:hover,#mostra_aba4:hover,#mostra_aba5:hover,#mostra_aba6:hover,#mostra_aba7:hover,#mostra_aba8:hover{
-    background:#53a7ea;
+    margin-left: 185px;   
 }
 
 .movimento{

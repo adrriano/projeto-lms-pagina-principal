@@ -42,3 +42,6 @@ def curso_redes_de_computadores(request):
 def curso_analise_e_desenvolvimento_de_sistemas(request):
     return render (request,"curso_analise_e_desenvolvimento_de_sistemas.html")
 
+def contato(request):
+    return render (request,"contato.html")    
+
