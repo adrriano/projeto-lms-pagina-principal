@@ -93,3 +93,48 @@ body{
 }
 /* Por favor comece seu css aqui a baixo (OBS *NAO MECHER NO CSS PRINCIPA DA PAGINA* NEM NA TAG BODY )*/
 /* SE FOR MECHER NO SEU BODY CRIE UMA CLASS PARA ELE, SE NAO ELE IRA ALTERAR A PAGINA RINCIPAL*/
+
+/** ALTERAÇÕES PÁGINA IMPACTA E CONTATO **/
+
+.fonte{
+    color:rgb(17, 29, 201);
+    text-align:justify;
+    padding-left: 600px;
+    padding-right:100px ;
+    padding-top:80px ;
+}
+
+.fonte2{
+    color:white;
+    text-align: left;
+    padding-left: 300px;
+    padding-right:100px ;
+    padding-top:50px ;
+}
+
+.fonte3{
+    color:white;
+    text-align: center;
+    padding-left: 150px;
+    padding-right:100px ;
+    padding-top:50px ;
+}
+
+.fonte4{
+    color:rgb(17, 29, 201);
+    text-align:justify;
+    padding-left: 720px;
+    padding-right:100px ;
+    padding-top:80px ;
+    
+
+    }
+
+.botao{
+    float:left;
+    margin-left: 1350px;
+    margin-top: 10px;
+   
+}
+
+/** ALTERAÇÕES PÁGINA IMPACTA E CONTATO **/
