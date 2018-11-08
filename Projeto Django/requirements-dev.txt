@@ -13,6 +13,7 @@ pluggy==0.7.1
 py==1.6.0
 pylint==2.1.1
 pytest==3.8.1
+python-decouple==3.1
 pytz==2018.5
 six==1.11.0
 static3==0.7.0

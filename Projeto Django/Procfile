@@ -1,1 +1,1 @@
-web: gunicorn Projeto Django.wsgi --log-file -
+web: gunicorn projeto-lms-pagina-principal.wsgi
