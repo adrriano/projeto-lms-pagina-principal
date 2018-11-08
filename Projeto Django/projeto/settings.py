@@ -28,7 +28,7 @@ SECRET_KEY = '2-emy8(((748--90$04gfplxm50!=3(+vgw81o=eid#4-%2&7q'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['projeto-lms-django.herokuapp.com','localhost']
+ALLOWED_HOSTS = ['git.heroku.com/projeto-lms-pagina-principal.git','localhost']
 
 
 # Application definition
