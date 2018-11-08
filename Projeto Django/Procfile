@@ -1,1 +1,2 @@
 web: gunicorn projeto-lms-pagina-principal.wsgi
+log.Fatal(http.ListenAndServe(":" + os.Getenv("PORT"), router))

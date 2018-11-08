@@ -1,18 +1,14 @@
 """
-WSGI config for projeto project.
-
+WSGI config for projeto_LMS project.
 It exposes the WSGI callable as a module-level variable named ``application``.
-
 For more information on this file, see
-https://docs.djangoproject.com/en/2.1/howto/deployment/wsgi/
+https://docs.djangoproject.com/en/2.0/howto/deployment/wsgi/
 """
 
 import os
-from dj_static import Cling
+
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "project.settings.dev")
-#os.environ.setdefault("DJANGO_SETTINGS_MODULE", "projeto-lms-pagina-principal.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "projeto.settings")
 
-application = Cling(get_wsgi_application())
-
+application = get_wsgi_application()
