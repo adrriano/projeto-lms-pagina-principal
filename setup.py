@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# -- coding: utf-8 --
+# -*- coding: utf-8 -*-
 
 # Note: To use the 'upload' functionality of this file, you must:
 #   $ pip install twine
@@ -35,9 +35,9 @@ here = os.path.abspath(os.path.dirname(__file__))
 with io.open(os.path.join(here, 'README.rst'), encoding='utf-8') as f:
     long_description = '\n' + f.read()
 
-# Load the package's _version_.py module as a dictionary.
+# Load the package's __version__.py module as a dictionary.
 about = {}
-with open(os.path.join(here, 'django_heroku', '_version_.py')) as f:
+with open(os.path.join(here, 'django_heroku', '__version__.py')) as f:
     exec(f.read(), about)
 
 
@@ -77,7 +77,7 @@ class UploadCommand(Command):
 # Where the magic happens:
 setup(
     name=NAME,
-    version=about['_version_'],
+    version=about['__version__'],
     description=DESCRIPTION,
     long_description=long_description,
     author=AUTHOR,

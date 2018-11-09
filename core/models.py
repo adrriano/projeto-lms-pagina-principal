@@ -8,7 +8,7 @@ class Usuario(models.Model):
     dt_expiracao = models.DateField(default=date(year=1900, month=1, day=1))
     login        = models.TextField(max_length=30, unique=True)
     senha        = models.TextField(max_length=8) 
-    def _str_(self):
+    def __str__(self):
         return self.login
 
 class Coordenador(models.Model):
@@ -17,7 +17,7 @@ class Coordenador(models.Model):
     nome    = models.TextField(max_length=50)
     email   = models.EmailField(max_length=50, unique=True)  
     celular = models.TextField(max_length=11, unique=True)
-    def _str_(self):
+    def __str__(self):
         return self.nome
 
 
@@ -29,7 +29,7 @@ class Aluno(models.Model):
     celular = models.TextField(max_length=11, unique=True)
     ra      = models.TextField(max_length=7, unique=True)
     foto    = models.TextField(max_length=100)
-    def _str_(self):
+    def __str__(self):
         return self.nome
 
 class Professor(models.Model):
@@ -40,13 +40,13 @@ class Professor(models.Model):
     email   = models.EmailField(max_length=50, unique=True)
     celular = models.TextField(max_length=11, unique=True)
     apelido = models.TextField(max_length=50)
-    def _str_(self):
+    def __str__(self):
         return self.nome
 
 class Curso(models.Model):
 
     curso = models.TextField(max_length=50, unique=True)
-    def _str_(self):
+    def __str__(self):
         return self.curso
 
 class Disciplina(models.Model):
@@ -69,7 +69,7 @@ class Disciplina(models.Model):
     bibliografia_complementar = models.TextField(max_length=1000)
     percentual_pratico        = models.SmallIntegerField()
     percentual_teorico        = models.SmallIntegerField()
-    def _str_(self):
+    def __str__(self):
         return self.nome
     
        
@@ -92,7 +92,7 @@ class DisciplinaOfertada(models.Model):
     
     class Meta:
        unique_together = ('curso', 'disciplina', 'turma', 'ano', 'semestre')
-    def _str_(self):
+    def __str__(self):
         return self.disciplina
 
 class SolicitacaoMatricula(models.Model):
@@ -103,7 +103,7 @@ class SolicitacaoMatricula(models.Model):
 
     dtresposta         = models.DateTimeField(auto_now_add=True, blank=True)
     status             = models.TextField(max_length=15)
-    def _str_(self):
+    def __str__(self):
         return self.usuario
 
 class Atividade(models.Model):
@@ -115,7 +115,7 @@ class Atividade(models.Model):
     conteudo  = models.TextField(max_length=8000) 
     tipo      = models.TextField(max_length=15) 
     extras    = models.TextField(max_length=100, null=True)    
-    def _str_(self):
+    def __str__(self):
         return self.titulo
 
 
@@ -129,7 +129,7 @@ class AtividadeVinculada(models.Model):
     status        = models.TextField(max_length=15)
     dtiniresposta = models.DateTimeField(auto_now_add=True, blank=True)
     dtfimresposta = models.DateTimeField(auto_now_add=True, blank=True)
-    def _str_(self):
+    def __str__(self):
         return self.atividade
 
 class Entrega(models.Model):
@@ -145,7 +145,7 @@ class Entrega(models.Model):
     status              = models.TextField(max_length=10)
     nota                = models.DecimalField(max_digits=4,decimal_places=2, null=True)
     obs                 = models.TextField(max_length=500, null=True)
-    def _str_(self):
+    def __str__(self):
         return self.aluno
 
 class Mensagem(models.Model):
@@ -160,5 +160,7 @@ class Mensagem(models.Model):
     dtenvio    = models.DateTimeField(auto_now_add=True, blank=True)
     dtresposta = models.DateTimeField(auto_now_add=True, blank=True, null=True)
     resposta   = models.TextField(max_length=500, null=True)
-    def _str_(self):
+    def __str__(self):
         return self.aluno
+
+
